@@ -1,9 +1,14 @@
 #!/bin/bash
 
-grep -r 'class="icon"' -l --null **/*.html | xargs -0
+# grep -r 'class="fa ' -l --null **/*.html | xargs -0
+
 grep -r 'class="icon"' -l --null **/*.html | xargs -0 sed -i 's#class="icon"#clazz="icon"#g'
+grep -r 'class="fa ' -l --null **/*.html | xargs -0 sed -i 's#class="fa #clazz="fa #g'
+
 grep -r 'class="' -l --null **/*.html | xargs -0 sed -i 's#class="\([^"]*\)"#data-am-bulma="\1"#g'
+
 grep -r 'clazz="icon"' -l --null **/*.html | xargs -0 sed -i 's#clazz="icon"#class="icon"#g'
+grep -r 'clazz="fa ' -l --null **/*.html | xargs -0 sed -i 's#clazz="fa #class="fa #g'
 
 # npm run build
 

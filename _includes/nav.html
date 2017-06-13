@@ -1,14 +1,14 @@
-<nav class="main-nav nav has-shadow">
-  <div class="container">
-    <div class="nav-left">
-      <a class="nav-item" href="{{ site.url }}{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/assets/icons/apple-touch-icon-144x144.png" alt="" class="logo">
-        <h1 class="title is-5">{{ site.title }}</h1>
+<nav data-am-bulma="main-nav nav has-shadow">
+  <div data-am-bulma="container">
+    <div data-am-bulma="nav-left">
+      <a data-am-bulma="nav-item" href="{{ site.url }}{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/assets/icons/apple-touch-icon-144x144.png" alt="" data-am-bulma="logo">
+        <h1 data-am-bulma="title is-5">{{ site.title }}</h1>
       </a>
-      <a class="nav-item {% if page.route == 'home' %}is-active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
+      <a data-am-bulma="nav-item {% if page.route == 'home' %}is-active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
       {% assign themes = (site.themes | sort: 'order') %}
-      <div class="nav-item">
-        <span class="theme-switcher select">
+      <div data-am-bulma="nav-item">
+        <span data-am-bulma="theme-switcher select">
           <select>
             <option value="" disabled selected>Themes</option>
             <option disabled>───</option>
@@ -19,24 +19,24 @@
           </select>
         </span>
       </div>
-      <a class="nav-item {% if page.route == 'help' %}is-active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/help/">Help</a>
+      <a data-am-bulma="nav-item {% if page.route == 'help' %}is-active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/help/">Help</a>
     </div>
-    <span class="nav-toggle">
+    <span data-am-bulma="nav-toggle">
       <span></span>
       <span></span>
       <span></span>
     </span>
-    <div class="nav-right nav-menu">
-      <a href="https://github.com/j5bot/bulmaswatch-attribute-selectors/stargazers" class="nav-item">
+    <div data-am-bulma="nav-right nav-menu">
+      <a href="https://github.com/j5bot/bulmaswatch-attribute-selectors/stargazers" data-am-bulma="nav-item">
       <img src="https://img.shields.io/github/stars/j5bot/bulmaswatch-attribute-selectors.svg" alt="GitHub stars">
       </a>
-      <a class="nav-item" href="{{ site.repo_url }}/issues" target="_blank"
+      <a data-am-bulma="nav-item" href="{{ site.repo_url }}/issues" target="_blank"
       onclick="ga('send', 'event', 'nav', 'click', 'issue');">
-        <i class="fa fa-bug"></i>&nbsp;Report an issue
+        <i data-am-bulma="fa fa-bug"></i>&nbsp;Report an issue
       </a>
-      <a class="nav-item" href="{{ site.repo_url }}" target="_blank"
+      <a data-am-bulma="nav-item" href="{{ site.repo_url }}" target="_blank"
       onclick="ga('send', 'event', 'nav', 'click', 'github');">
-        <span class="icon"> <i class="fa fa-github"></i> </span>
+        <span class="icon"> <i data-am-bulma="fa fa-github"></i> </span>
       </a>
     </div>
   </div>

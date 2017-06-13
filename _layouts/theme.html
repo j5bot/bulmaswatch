@@ -12,35 +12,35 @@
   </style>
 </head>
 
-<body class="theme-page">
-  <section class="hero is-primary">
+<body data-am-bulma="theme-page">
+  <section data-am-bulma="hero is-primary">
     <!-- Hero header: will stick at the top -->
-    <div class="hero-head">
+    <div data-am-bulma="hero-head">
       {% include nav.html %}
     </div>
     <!-- Hero content: will be in the middle -->
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title">
+    <div data-am-bulma="hero-body">
+      <div data-am-bulma="container">
+        <h1 data-am-bulma="title">
           {{ page.name }}
         </h1>
-        <h2 class="subtitle">
+        <h2 data-am-bulma="subtitle">
           {{ page.description }}
         </h2>
         <p>
-          <a class="button is-primary is-inverted" href="{{ site.baseurl }}/{{page.name | slugify}}/bulmaswatch.min.css" target="_blank" onclick="ga('send', 'event', 'theme', 'download', '{{page.name}}');">Download</a>
-          <a class="button is-dark" href="{{ site.repo_url }}/tree/gh-pages/{{page.name | slugify}}" target="_blank" onclick="ga('send', 'event', 'theme', 'github', '{{page.name}}');" title="Download from Github">
-            <span class="icon"> <i class="fa fa-github"> </i> </span>
+          <a data-am-bulma="button is-primary is-inverted" href="{{ site.baseurl }}/{{page.name | slugify}}/bulmaswatch.min.css" target="_blank" onclick="ga('send', 'event', 'theme', 'download', '{{page.name}}');">Download</a>
+          <a data-am-bulma="button is-dark" href="{{ site.repo_url }}/tree/gh-pages/{{page.name | slugify}}" target="_blank" onclick="ga('send', 'event', 'theme', 'github', '{{page.name}}');" title="Download from Github">
+            <span class="icon"> <i data-am-bulma="fa fa-github"> </i> </span>
           </a>
         </p>
       </div>
     </div>
   </section>
-  <div class="columns">
-    <div class="column is-2">
-      <aside class="menu section">
-        <p class="menu-label"> Elements </p>
-        <ul class="menu-list">
+  <div data-am-bulma="columns">
+    <div data-am-bulma="column is-2">
+      <aside data-am-bulma="menu section">
+        <p data-am-bulma="menu-label"> Elements </p>
+        <ul data-am-bulma="menu-list">
           <li>
             <a href="#typography"> Typography </a>
           </li>
@@ -78,8 +78,8 @@
             <a href="#tag"> Tag </a>
           </li>
         </ul>
-        <p class="menu-label"> Components </p>
-        <ul class="menu-list">
+        <p data-am-bulma="menu-label"> Components </p>
+        <ul data-am-bulma="menu-list">
           <li>
             <a href="#hero"> Hero </a>
           </li>
@@ -116,62 +116,62 @@
         </ul>
       </aside>
     </div>
-    <div class="column">
-      <section class="section" id="typography">
-        <h1 class="title"> Typography </h1>
+    <div data-am-bulma="column">
+      <section data-am-bulma="section" id="typography">
+        <h1 data-am-bulma="title"> Typography </h1>
         <hr>
-        <div class="columns">
-          <div class="column">
-            <h1 class="title is-1"> Title 1 </h1>
-            <h2 class="title is-2"> Title 2 </h2>
-            <h3 class="title is-3"> Title 3 </h3>
-            <h4 class="title is-4"> Title 4 </h4>
-            <h5 class="title is-5"> Title 5 </h5>
-            <h6 class="title is-6"> Title 6 </h6> </div>
-          <div class="column">
-            <h1 class="subtitle is-1"> Subtitle 1 </h1>
-            <h2 class="subtitle is-2"> Subtitle 2 </h2>
-            <h3 class="subtitle is-3"> Subtitle 3 </h3>
-            <h4 class="subtitle is-4"> Subtitle 4 </h4>
-            <h5 class="subtitle is-5"> Subtitle 5 </h5>
-            <h6 class="subtitle is-6"> Subtitle 6 </h6> </div>
-          <div class="column">
-            <h1 class="title"> Title </h1>
-            <h2 class="subtitle"> Subtitle </h2>
-            <p class="title is-1"> Title 1 </p>
-            <p class="subtitle is-3"> Subtitle 3 </p>
-            <p class="title is-2"> Title 2 </p>
-            <p class="subtitle is-4"> Subtitle 4 </p>
-            <p class="title is-3"> Title 3 </p>
-            <p class="subtitle is-5"> Subtitle 5 </p>
+        <div data-am-bulma="columns">
+          <div data-am-bulma="column">
+            <h1 data-am-bulma="title is-1"> Title 1 </h1>
+            <h2 data-am-bulma="title is-2"> Title 2 </h2>
+            <h3 data-am-bulma="title is-3"> Title 3 </h3>
+            <h4 data-am-bulma="title is-4"> Title 4 </h4>
+            <h5 data-am-bulma="title is-5"> Title 5 </h5>
+            <h6 data-am-bulma="title is-6"> Title 6 </h6> </div>
+          <div data-am-bulma="column">
+            <h1 data-am-bulma="subtitle is-1"> Subtitle 1 </h1>
+            <h2 data-am-bulma="subtitle is-2"> Subtitle 2 </h2>
+            <h3 data-am-bulma="subtitle is-3"> Subtitle 3 </h3>
+            <h4 data-am-bulma="subtitle is-4"> Subtitle 4 </h4>
+            <h5 data-am-bulma="subtitle is-5"> Subtitle 5 </h5>
+            <h6 data-am-bulma="subtitle is-6"> Subtitle 6 </h6> </div>
+          <div data-am-bulma="column">
+            <h1 data-am-bulma="title"> Title </h1>
+            <h2 data-am-bulma="subtitle"> Subtitle </h2>
+            <p data-am-bulma="title is-1"> Title 1 </p>
+            <p data-am-bulma="subtitle is-3"> Subtitle 3 </p>
+            <p data-am-bulma="title is-2"> Title 2 </p>
+            <p data-am-bulma="subtitle is-4"> Subtitle 4 </p>
+            <p data-am-bulma="title is-3"> Title 3 </p>
+            <p data-am-bulma="subtitle is-5"> Subtitle 5 </p>
           </div>
         </div>
       </section>
-      <section class="section" id="box">
-        <h1 class="title"> Box </h1>
+      <section data-am-bulma="section" id="box">
+        <h1 data-am-bulma="title"> Box </h1>
         <hr>
-        <div class="box">
-          <article class="media">
-            <div class="media-left">
-              <figure class="image is-64x64"> <img alt="Image" src="https://s3.amazonaws.com/uifaces/faces/twitter/zeldman/128.jpg">
+        <div data-am-bulma="box">
+          <article data-am-bulma="media">
+            <div data-am-bulma="media-left">
+              <figure data-am-bulma="image is-64x64"> <img alt="Image" src="https://s3.amazonaws.com/uifaces/faces/twitter/zeldman/128.jpg">
               </figure>
             </div>
-            <div class="media-content">
-              <div class="content">
+            <div data-am-bulma="media-content">
+              <div data-am-bulma="content">
                 <p> <strong> John Smith </strong> <small> @johnsmith </small> <small> 31m </small>
                   <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
                 </p>
               </div>
-              <nav class="level">
-                <div class="level-left">
-                  <a class="level-item">
-                    <span class="icon is-small"> <i class="fa fa-reply"> </i> </span>
+              <nav data-am-bulma="level">
+                <div data-am-bulma="level-left">
+                  <a data-am-bulma="level-item">
+                    <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-reply"> </i> </span>
                   </a>
-                  <a class="level-item">
-                    <span class="icon is-small"> <i class="fa fa-retweet"> </i> </span>
+                  <a data-am-bulma="level-item">
+                    <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-retweet"> </i> </span>
                   </a>
-                  <a class="level-item">
-                    <span class="icon is-small"> <i class="fa fa-heart"> </i> </span>
+                  <a data-am-bulma="level-item">
+                    <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-heart"> </i> </span>
                   </a>
                 </div>
               </nav>
@@ -179,205 +179,205 @@
           </article>
         </div>
       </section>
-      <section class="section" id="buttons">
-        <h1 class="title"> Buttons </h1>
+      <section data-am-bulma="section" id="buttons">
+        <h1 data-am-bulma="title"> Buttons </h1>
         <hr>
-        <div class="columns">
-          <div class="column">
-            <div class="block">
-              <a class="button"> Button </a>
-              <a class="button is-white"> White </a>
-              <a class="button is-light"> Light </a>
-              <a class="button is-dark"> Dark </a>
-              <a class="button is-black"> Black </a>
-              <a class="button is-link"> Link </a>
+        <div data-am-bulma="columns">
+          <div data-am-bulma="column">
+            <div data-am-bulma="block">
+              <a data-am-bulma="button"> Button </a>
+              <a data-am-bulma="button is-white"> White </a>
+              <a data-am-bulma="button is-light"> Light </a>
+              <a data-am-bulma="button is-dark"> Dark </a>
+              <a data-am-bulma="button is-black"> Black </a>
+              <a data-am-bulma="button is-link"> Link </a>
             </div>
-            <div class="block">
-              <a class="button is-primary"> Primary </a>
-              <a class="button is-info"> Info </a>
-              <a class="button is-success"> Success </a>
-              <a class="button is-warning"> Warning </a>
-              <a class="button is-danger"> Danger </a>
+            <div data-am-bulma="block">
+              <a data-am-bulma="button is-primary"> Primary </a>
+              <a data-am-bulma="button is-info"> Info </a>
+              <a data-am-bulma="button is-success"> Success </a>
+              <a data-am-bulma="button is-warning"> Warning </a>
+              <a data-am-bulma="button is-danger"> Danger </a>
             </div>
-            <div class="block">
-              <a class="button is-focused"> Focus </a>
-              <a class="button is-primary is-focused"> Focus </a>
-              <a class="button is-info is-focused"> Focus </a>
-              <a class="button is-success is-focused"> Focus </a>
-              <a class="button is-warning is-focused"> Focus </a>
-              <a class="button is-danger is-focused"> Focus </a>
+            <div data-am-bulma="block">
+              <a data-am-bulma="button is-focused"> Focus </a>
+              <a data-am-bulma="button is-primary is-focused"> Focus </a>
+              <a data-am-bulma="button is-info is-focused"> Focus </a>
+              <a data-am-bulma="button is-success is-focused"> Focus </a>
+              <a data-am-bulma="button is-warning is-focused"> Focus </a>
+              <a data-am-bulma="button is-danger is-focused"> Focus </a>
             </div>
-            <div class="block">
-              <a class="button is-hovered"> Hover </a>
-              <a class="button is-primary is-hovered"> Hover </a>
-              <a class="button is-info is-hovered"> Hover </a>
-              <a class="button is-success is-hovered"> Hover </a>
-              <a class="button is-warning is-hovered"> Hover </a>
-              <a class="button is-danger is-hovered"> Hover </a>
+            <div data-am-bulma="block">
+              <a data-am-bulma="button is-hovered"> Hover </a>
+              <a data-am-bulma="button is-primary is-hovered"> Hover </a>
+              <a data-am-bulma="button is-info is-hovered"> Hover </a>
+              <a data-am-bulma="button is-success is-hovered"> Hover </a>
+              <a data-am-bulma="button is-warning is-hovered"> Hover </a>
+              <a data-am-bulma="button is-danger is-hovered"> Hover </a>
             </div>
-            <div class="block">
-              <a class="button is-active"> Active </a>
-              <a class="button is-primary is-active"> Active </a>
-              <a class="button is-info is-active"> Active </a>
-              <a class="button is-success is-active"> Active </a>
-              <a class="button is-warning is-active"> Active </a>
-              <a class="button is-danger is-active"> Active </a>
+            <div data-am-bulma="block">
+              <a data-am-bulma="button is-active"> Active </a>
+              <a data-am-bulma="button is-primary is-active"> Active </a>
+              <a data-am-bulma="button is-info is-active"> Active </a>
+              <a data-am-bulma="button is-success is-active"> Active </a>
+              <a data-am-bulma="button is-warning is-active"> Active </a>
+              <a data-am-bulma="button is-danger is-active"> Active </a>
             </div>
-            <div class="block">
-              <a class="button is-loading"> Loading </a>
-              <a class="button is-primary is-loading"> Loading </a>
-              <a class="button is-info is-loading"> Loading </a>
-              <a class="button is-success is-loading"> Loading </a>
-              <a class="button is-warning is-loading"> Loading </a>
-              <a class="button is-danger is-loading"> Loading </a>
+            <div data-am-bulma="block">
+              <a data-am-bulma="button is-loading"> Loading </a>
+              <a data-am-bulma="button is-primary is-loading"> Loading </a>
+              <a data-am-bulma="button is-info is-loading"> Loading </a>
+              <a data-am-bulma="button is-success is-loading"> Loading </a>
+              <a data-am-bulma="button is-warning is-loading"> Loading </a>
+              <a data-am-bulma="button is-danger is-loading"> Loading </a>
             </div>
-            <p class="field">
-              <a class="button">
-                <span class="icon is-small"> <i class="fa fa-bold"> </i> </span>
+            <p data-am-bulma="field">
+              <a data-am-bulma="button">
+                <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-bold"> </i> </span>
               </a>
-              <a class="button">
-                <span class="icon is-small"> <i class="fa fa-italic"> </i> </span>
+              <a data-am-bulma="button">
+                <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-italic"> </i> </span>
               </a>
-              <a class="button">
-                <span class="icon is-small"> <i class="fa fa-underline"> </i> </span>
+              <a data-am-bulma="button">
+                <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-underline"> </i> </span>
               </a>
-              <a class="button">
-                <span class="icon"> <i class="fa fa-github"> </i> </span>
+              <a data-am-bulma="button">
+                <span class="icon"> <i data-am-bulma="fa fa-github"> </i> </span>
                 <span> GitHub </span>
               </a>
-              <a class="button is-primary">
-                <span class="icon"> <i class="fa fa-twitter"> </i> </span>
+              <a data-am-bulma="button is-primary">
+                <span class="icon"> <i data-am-bulma="fa fa-twitter"> </i> </span>
                 <span> Twitter </span>
               </a>
-              <a class="button is-success">
-                <span class="icon is-small"> <i class="fa fa-check"> </i> </span>
+              <a data-am-bulma="button is-success">
+                <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-check"> </i> </span>
                 <span> Save </span>
               </a>
-              <a class="button is-danger is-outlined">
+              <a data-am-bulma="button is-danger is-outlined">
                 <span> Delete </span>
-                <span class="icon is-small"> <i class="fa fa-times"> </i> </span>
+                <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-times"> </i> </span>
               </a>
             </p>
-            <div class="field is-grouped">
-              <p class="field has-addons">
-                <a class="button">
-                  <span class="icon is-small"> <i class="fa fa-bold"> </i> </span>
+            <div data-am-bulma="field is-grouped">
+              <p data-am-bulma="field has-addons">
+                <a data-am-bulma="button">
+                  <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-bold"> </i> </span>
                   <span> Bold </span>
                 </a>
-                <a class="button">
-                  <span class="icon is-small"> <i class="fa fa-italic"> </i> </span>
+                <a data-am-bulma="button">
+                  <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-italic"> </i> </span>
                   <span> Italic </span>
                 </a>
-                <a class="button">
-                  <span class="icon is-small"> <i class="fa fa-underline"> </i> </span>
+                <a data-am-bulma="button">
+                  <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-underline"> </i> </span>
                   <span> Underline </span>
                 </a>
               </p>
-              <p class="field has-addons">
-                <a class="button">
-                  <span class="icon is-small"> <i class="fa fa-align-left"> </i> </span>
+              <p data-am-bulma="field has-addons">
+                <a data-am-bulma="button">
+                  <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-align-left"> </i> </span>
                   <span> Left </span>
                 </a>
-                <a class="button">
-                  <span class="icon is-small"> <i class="fa fa-align-center"> </i> </span>
+                <a data-am-bulma="button">
+                  <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-align-center"> </i> </span>
                   <span> Center </span>
                 </a>
-                <a class="button">
-                  <span class="icon is-small"> <i class="fa fa-align-right"> </i> </span>
+                <a data-am-bulma="button">
+                  <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-align-right"> </i> </span>
                   <span> Right </span>
                 </a>
               </p>
             </div>
           </div>
-          <div class="column">
-            <div class="block">
-              <a class="button is-small"> Small </a>
-              <a class="button"> Normal </a>
-              <a class="button is-medium"> Medium </a>
-              <a class="button is-large"> Large </a>
+          <div data-am-bulma="column">
+            <div data-am-bulma="block">
+              <a data-am-bulma="button is-small"> Small </a>
+              <a data-am-bulma="button"> Normal </a>
+              <a data-am-bulma="button is-medium"> Medium </a>
+              <a data-am-bulma="button is-large"> Large </a>
             </div>
-            <div class="block">
-              <a class="button is-outlined"> Outlined </a>
-              <a class="button is-primary is-outlined"> Outlined </a>
-              <a class="button is-info is-outlined"> Outlined </a>
-              <a class="button is-success is-outlined"> Outlined </a>
-              <a class="button is-danger is-outlined"> Outlined </a>
+            <div data-am-bulma="block">
+              <a data-am-bulma="button is-outlined"> Outlined </a>
+              <a data-am-bulma="button is-primary is-outlined"> Outlined </a>
+              <a data-am-bulma="button is-info is-outlined"> Outlined </a>
+              <a data-am-bulma="button is-success is-outlined"> Outlined </a>
+              <a data-am-bulma="button is-danger is-outlined"> Outlined </a>
             </div>
-            <div class="notification is-primary">
-              <a class="button is-primary is-inverted is-outlined"> Invert Outlined </a>
-              <a class="button is-info is-inverted is-outlined"> Invert Outlined </a>
-              <a class="button is-success is-inverted is-outlined"> Invert Outlined </a>
-              <a class="button is-danger is-inverted is-outlined"> Invert Outlined </a>
+            <div data-am-bulma="notification is-primary">
+              <a data-am-bulma="button is-primary is-inverted is-outlined"> Invert Outlined </a>
+              <a data-am-bulma="button is-info is-inverted is-outlined"> Invert Outlined </a>
+              <a data-am-bulma="button is-success is-inverted is-outlined"> Invert Outlined </a>
+              <a data-am-bulma="button is-danger is-inverted is-outlined"> Invert Outlined </a>
             </div>
-            <div class="notification is-primary">
-              <a class="button is-primary is-inverted"> Inverted </a>
-              <a class="button is-info is-inverted"> Inverted </a>
-              <a class="button is-success is-inverted"> Inverted </a>
-              <a class="button is-danger is-inverted"> Inverted </a>
+            <div data-am-bulma="notification is-primary">
+              <a data-am-bulma="button is-primary is-inverted"> Inverted </a>
+              <a data-am-bulma="button is-info is-inverted"> Inverted </a>
+              <a data-am-bulma="button is-success is-inverted"> Inverted </a>
+              <a data-am-bulma="button is-danger is-inverted"> Inverted </a>
             </div>
-            <p class="field">
-              <a class="button is-small">
-                <span class="icon is-small"> <i class="fa fa-github"> </i> </span>
+            <p data-am-bulma="field">
+              <a data-am-bulma="button is-small">
+                <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-github"> </i> </span>
                 <span> GitHub </span>
               </a>
-              <a class="button">
-                <span class="icon"> <i class="fa fa-github"> </i> </span>
+              <a data-am-bulma="button">
+                <span class="icon"> <i data-am-bulma="fa fa-github"> </i> </span>
                 <span> GitHub </span>
               </a>
-              <a class="button is-medium">
-                <span class="icon"> <i class="fa fa-github"> </i> </span>
+              <a data-am-bulma="button is-medium">
+                <span class="icon"> <i data-am-bulma="fa fa-github"> </i> </span>
                 <span> GitHub </span>
               </a>
-              <a class="button is-large">
-                <span class="icon is-medium"> <i class="fa fa-github"> </i> </span>
+              <a data-am-bulma="button is-large">
+                <span data-am-bulma="icon is-medium"> <i data-am-bulma="fa fa-github"> </i> </span>
                 <span> GitHub </span>
               </a>
             </p>
-            <p class="field">
-              <a class="button is-small">
-                <span class="icon is-small"> <i class="fa fa-header"> </i> </span>
+            <p data-am-bulma="field">
+              <a data-am-bulma="button is-small">
+                <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-header"> </i> </span>
               </a>
             </p>
-            <p class="field">
-              <a class="button">
-                <span class="icon is-small"> <i class="fa fa-header"> </i> </span>
+            <p data-am-bulma="field">
+              <a data-am-bulma="button">
+                <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-header"> </i> </span>
               </a>
-              <a class="button">
-                <span class="icon"> <i class="fa fa-header"> </i> </span>
-              </a>
-            </p>
-            <p class="field">
-              <a class="button is-medium">
-                <span class="icon is-small"> <i class="fa fa-header"> </i> </span>
-              </a>
-              <a class="button is-medium">
-                <span class="icon"> <i class="fa fa-header"> </i> </span>
-              </a>
-              <a class="button is-medium">
-                <span class="icon is-medium"> <i class="fa fa-header"> </i> </span>
+              <a data-am-bulma="button">
+                <span class="icon"> <i data-am-bulma="fa fa-header"> </i> </span>
               </a>
             </p>
-            <p class="field">
-              <a class="button is-large">
-                <span class="icon is-small"> <i class="fa fa-header"> </i> </span>
+            <p data-am-bulma="field">
+              <a data-am-bulma="button is-medium">
+                <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-header"> </i> </span>
               </a>
-              <a class="button is-large">
-                <span class="icon"> <i class="fa fa-header"> </i> </span>
+              <a data-am-bulma="button is-medium">
+                <span class="icon"> <i data-am-bulma="fa fa-header"> </i> </span>
               </a>
-              <a class="button is-large">
-                <span class="icon is-medium"> <i class="fa fa-header"> </i> </span>
+              <a data-am-bulma="button is-medium">
+                <span data-am-bulma="icon is-medium"> <i data-am-bulma="fa fa-header"> </i> </span>
               </a>
-              <a class="button is-large">
-                <span class="icon is-large"> <i class="fa fa-header"> </i> </span>
+            </p>
+            <p data-am-bulma="field">
+              <a data-am-bulma="button is-large">
+                <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-header"> </i> </span>
+              </a>
+              <a data-am-bulma="button is-large">
+                <span class="icon"> <i data-am-bulma="fa fa-header"> </i> </span>
+              </a>
+              <a data-am-bulma="button is-large">
+                <span data-am-bulma="icon is-medium"> <i data-am-bulma="fa fa-header"> </i> </span>
+              </a>
+              <a data-am-bulma="button is-large">
+                <span data-am-bulma="icon is-large"> <i data-am-bulma="fa fa-header"> </i> </span>
               </a>
             </p>
           </div>
         </div>
       </section>
-      <section class="section" id="content">
-        <h1 class="title"> Content </h1>
+      <section data-am-bulma="section" id="content">
+        <h1 data-am-bulma="title"> Content </h1>
         <hr>
-        <div class="content">
+        <div data-am-bulma="content">
           <h1> Hello World </h1>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque. </p>
           <h2> Second level </h2>
@@ -444,68 +444,68 @@
           <p> Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus. </p>
         </div>
       </section>
-      <section class="section" id="delete">
-        <h1 class="title"> Delete </h1>
+      <section data-am-bulma="section" id="delete">
+        <h1 data-am-bulma="title"> Delete </h1>
         <hr>
-        <div class="block">
-          <span class="tag is-success"> Hello World
-            <button class="delete is-small"> </button>
+        <div data-am-bulma="block">
+          <span data-am-bulma="tag is-success"> Hello World
+            <button data-am-bulma="delete is-small"> </button>
           </span>
-          <a class="delete is-small"> </a>
-          <a class="delete"> </a>
-          <a class="delete is-medium"> </a>
-          <a class="delete is-large"> </a>
+          <a data-am-bulma="delete is-small"> </a>
+          <a data-am-bulma="delete"> </a>
+          <a data-am-bulma="delete is-medium"> </a>
+          <a data-am-bulma="delete is-large"> </a>
         </div>
-        <div class="notification is-danger">
-          <button class="delete"> </button> Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
-        <article class="message is-info">
-          <div class="message-header"> Info
-            <button class="delete"> </button>
+        <div data-am-bulma="notification is-danger">
+          <button data-am-bulma="delete"> </button> Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
+        <article data-am-bulma="message is-info">
+          <div data-am-bulma="message-header"> Info
+            <button data-am-bulma="delete"> </button>
           </div>
-          <div class="message-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque risus mi, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum felis venenatis efficitur. Aenean ac eleifend lacus, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem. </div>
+          <div data-am-bulma="message-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque risus mi, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum felis venenatis efficitur. Aenean ac eleifend lacus, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem. </div>
         </article>
       </section>
-      <section class="section" id="form">
-        <h1 class="title"> Form </h1>
+      <section data-am-bulma="section" id="form">
+        <h1 data-am-bulma="title"> Form </h1>
         <hr>
-        <div class="columns">
-          <div class="column">
-            <div class="field">
-              <label class="label">Name</label>
-              <p class="control">
-                <input class="input" type="text" placeholder="Text input">
+        <div data-am-bulma="columns">
+          <div data-am-bulma="column">
+            <div data-am-bulma="field">
+              <label data-am-bulma="label">Name</label>
+              <p data-am-bulma="control">
+                <input data-am-bulma="input" type="text" placeholder="Text input">
               </p>
             </div>
-            <div class="field">
-              <label class="label">Username</label>
-              <p class="control has-icons-left has-icons-right">
-                <input class="input is-success" type="text" placeholder="Text input" value="bulma">
-                <span class="icon is-small is-left">
-                  <i class="fa fa-user"></i>
+            <div data-am-bulma="field">
+              <label data-am-bulma="label">Username</label>
+              <p data-am-bulma="control has-icons-left has-icons-right">
+                <input data-am-bulma="input is-success" type="text" placeholder="Text input" value="bulma">
+                <span data-am-bulma="icon is-small is-left">
+                  <i data-am-bulma="fa fa-user"></i>
                 </span>
-                <span class="icon is-small is-right">
-                  <i class="fa fa-check"></i>
-                </span>
-              </p>
-              <p class="help is-success">This username is available</p>
-            </div>
-            <div class="field">
-              <label class="label">Email</label>
-              <p class="control has-icons-left has-icons-right">
-                <input class="input is-danger" type="text" placeholder="Email input" value="hello@">
-                <span class="icon is-small is-left">
-                  <i class="fa fa-envelope"></i>
-                </span>
-                <span class="icon is-small is-right">
-                  <i class="fa fa-warning"></i>
+                <span data-am-bulma="icon is-small is-right">
+                  <i data-am-bulma="fa fa-check"></i>
                 </span>
               </p>
-              <p class="help is-danger">This email is invalid</p>
+              <p data-am-bulma="help is-success">This username is available</p>
             </div>
-            <div class="field">
-              <label class="label">Subject</label>
-              <p class="control">
-                <span class="select">
+            <div data-am-bulma="field">
+              <label data-am-bulma="label">Email</label>
+              <p data-am-bulma="control has-icons-left has-icons-right">
+                <input data-am-bulma="input is-danger" type="text" placeholder="Email input" value="hello@">
+                <span data-am-bulma="icon is-small is-left">
+                  <i data-am-bulma="fa fa-envelope"></i>
+                </span>
+                <span data-am-bulma="icon is-small is-right">
+                  <i data-am-bulma="fa fa-warning"></i>
+                </span>
+              </p>
+              <p data-am-bulma="help is-danger">This email is invalid</p>
+            </div>
+            <div data-am-bulma="field">
+              <label data-am-bulma="label">Subject</label>
+              <p data-am-bulma="control">
+                <span data-am-bulma="select">
                   <select>
                     <option>Select dropdown</option>
                     <option>With options</option>
@@ -513,114 +513,114 @@
                 </span>
               </p>
             </div>
-            <div class="field">
-              <label class="label">Message</label>
-              <p class="control">
-                <textarea class="textarea" placeholder="Textarea"></textarea>
+            <div data-am-bulma="field">
+              <label data-am-bulma="label">Message</label>
+              <p data-am-bulma="control">
+                <textarea data-am-bulma="textarea" placeholder="Textarea"></textarea>
               </p>
             </div>
-            <div class="field">
-              <p class="control">
-                <label class="checkbox">
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <label data-am-bulma="checkbox">
                   <input type="checkbox"> I agree to the
                   <a href="#">terms and conditions</a>
                 </label>
               </p>
             </div>
-            <div class="field">
-              <p class="control">
-                <label class="radio">
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <label data-am-bulma="radio">
                   <input type="radio" name="question"> Yes
                 </label>
-                <label class="radio">
+                <label data-am-bulma="radio">
                   <input type="radio" name="question"> No
                 </label>
               </p>
             </div>
-            <div class="field is-grouped">
-              <p class="control">
-                <button class="button is-primary">Submit</button>
+            <div data-am-bulma="field is-grouped">
+              <p data-am-bulma="control">
+                <button data-am-bulma="button is-primary">Submit</button>
               </p>
-              <p class="control">
-                <button class="button is-link">Cancel</button>
+              <p data-am-bulma="control">
+                <button data-am-bulma="button is-link">Cancel</button>
               </p>
             </div>
             <br>
-            <h4 class="subtitle"> Disabled </h4>
+            <h4 data-am-bulma="subtitle"> Disabled </h4>
             <hr>
-            <div class="field">
-              <p class="control">
-                <input class="input" disabled="" placeholder="Disabled input" type="text">
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <input data-am-bulma="input" disabled="" placeholder="Disabled input" type="text">
               </p>
             </div>
-            <div class="field">
-              <p class="control">
-                <textarea class="textarea" disabled="" placeholder="Disabled textarea"> </textarea>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <textarea data-am-bulma="textarea" disabled="" placeholder="Disabled textarea"> </textarea>
               </p>
             </div>
-            <div class="field">
-              <p class="control">
-                <label class="checkbox is-disabled">
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <label data-am-bulma="checkbox is-disabled">
                   <input disabled="" type="checkbox"> Remember me
                 </label>
               </p>
             </div>
-            <div class="field">
-              <p class="control">
-                <label class="radio is-disabled">
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <label data-am-bulma="radio is-disabled">
                   <input disabled="" name="question" type="radio"> Yes
                 </label>
-                <label class="radio is-disabled">
+                <label data-am-bulma="radio is-disabled">
                   <input disabled="" name="question" type="radio"> No
                 </label>
               </p>
             </div>
-            <div class="field is-grouped">
-              <p class="control">
-                <button class="button is-primary" disabled=""> Submit </button>
+            <div data-am-bulma="field is-grouped">
+              <p data-am-bulma="control">
+                <button data-am-bulma="button is-primary" disabled=""> Submit </button>
               </p>
-              <p class="control">
-                <button class="button" disabled=""> Cancel </button>
+              <p data-am-bulma="control">
+                <button data-am-bulma="button" disabled=""> Cancel </button>
               </p>
             </div>
             <br>
-            <h3 class="title"> Horizontal Form </h3>
+            <h3 data-am-bulma="title"> Horizontal Form </h3>
             <hr>
-            <div class="field is-horizontal">
-              <div class="field-label is-normal">
-                <label class="label">From</label>
+            <div data-am-bulma="field is-horizontal">
+              <div data-am-bulma="field-label is-normal">
+                <label data-am-bulma="label">From</label>
               </div>
-              <div class="field-body">
-                <div class="field is-grouped">
-                  <p class="control is-expanded has-icons-left">
-                    <input class="input" type="text" placeholder="Name">
-                    <span class="icon is-small is-left">
-                      <i class="fa fa-user"></i>
+              <div data-am-bulma="field-body">
+                <div data-am-bulma="field is-grouped">
+                  <p data-am-bulma="control is-expanded has-icons-left">
+                    <input data-am-bulma="input" type="text" placeholder="Name">
+                    <span data-am-bulma="icon is-small is-left">
+                      <i data-am-bulma="fa fa-user"></i>
                     </span>
                   </p>
                 </div>
-                <div class="field">
-                  <p class="control is-expanded has-icons-left has-icons-right">
-                    <input class="input is-success" type="email" placeholder="Email" value="alex@smith.com">
-                    <span class="icon is-small is-left">
-                      <i class="fa fa-envelope"></i>
+                <div data-am-bulma="field">
+                  <p data-am-bulma="control is-expanded has-icons-left has-icons-right">
+                    <input data-am-bulma="input is-success" type="email" placeholder="Email" value="alex@smith.com">
+                    <span data-am-bulma="icon is-small is-left">
+                      <i data-am-bulma="fa fa-envelope"></i>
                     </span>
-                    <span class="icon is-small is-right">
-                      <i class="fa fa-check"></i>
+                    <span data-am-bulma="icon is-small is-right">
+                      <i data-am-bulma="fa fa-check"></i>
                     </span>
                   </p>
-                  <p class="help is-success">This email is correct</p>
+                  <p data-am-bulma="help is-success">This email is correct</p>
                 </div>
               </div>
             </div>
-            <div class="field is-horizontal">
-              <div class="field-label is-normal">
-                <label class="label">Department</label>
+            <div data-am-bulma="field is-horizontal">
+              <div data-am-bulma="field-label is-normal">
+                <label data-am-bulma="label">Department</label>
               </div>
-              <div class="field-body">
-                <div class="field is-narrow">
-                  <div class="control">
-                    <div class="select is-fullwidth">
+              <div data-am-bulma="field-body">
+                <div data-am-bulma="field is-narrow">
+                  <div data-am-bulma="control">
+                    <div data-am-bulma="select is-fullwidth">
                       <select>
                         <option>Business development</option>
                         <option>Marketing</option>
@@ -631,58 +631,58 @@
                 </div>
               </div>
             </div>
-            <div class="field is-horizontal">
-              <div class="field-label">
-                <label class="label">Already a member?</label>
+            <div data-am-bulma="field is-horizontal">
+              <div data-am-bulma="field-label">
+                <label data-am-bulma="label">Already a member?</label>
               </div>
-              <div class="field-body">
-                <div class="field is-narrow">
-                  <div class="control">
-                    <label class="radio">
+              <div data-am-bulma="field-body">
+                <div data-am-bulma="field is-narrow">
+                  <div data-am-bulma="control">
+                    <label data-am-bulma="radio">
                       <input type="radio" name="member"> Yes
                     </label>
-                    <label class="radio">
+                    <label data-am-bulma="radio">
                       <input type="radio" name="member"> No
                     </label>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="field is-horizontal">
-              <div class="field-label is-normal">
-                <label class="label">Subject</label>
+            <div data-am-bulma="field is-horizontal">
+              <div data-am-bulma="field-label is-normal">
+                <label data-am-bulma="label">Subject</label>
               </div>
-              <div class="field-body">
-                <div class="field">
-                  <div class="control">
-                    <input class="input is-danger" type="text" placeholder="e.g. Partnership opportunity">
+              <div data-am-bulma="field-body">
+                <div data-am-bulma="field">
+                  <div data-am-bulma="control">
+                    <input data-am-bulma="input is-danger" type="text" placeholder="e.g. Partnership opportunity">
                   </div>
-                  <p class="help is-danger">
+                  <p data-am-bulma="help is-danger">
                     This field is required
                   </p>
                 </div>
               </div>
             </div>
-            <div class="field is-horizontal">
-              <div class="field-label is-normal">
-                <label class="label">Question</label>
+            <div data-am-bulma="field is-horizontal">
+              <div data-am-bulma="field-label is-normal">
+                <label data-am-bulma="label">Question</label>
               </div>
-              <div class="field-body">
-                <div class="field">
-                  <div class="control">
-                    <textarea class="textarea" placeholder="Explain how we can help you"></textarea>
+              <div data-am-bulma="field-body">
+                <div data-am-bulma="field">
+                  <div data-am-bulma="control">
+                    <textarea data-am-bulma="textarea" placeholder="Explain how we can help you"></textarea>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="field is-horizontal">
-              <div class="field-label">
+            <div data-am-bulma="field is-horizontal">
+              <div data-am-bulma="field-label">
                 <!-- Left empty for spacing -->
               </div>
-              <div class="field-body">
-                <div class="field">
-                  <div class="control">
-                    <button class="button is-primary">
+              <div data-am-bulma="field-body">
+                <div data-am-bulma="field">
+                  <div data-am-bulma="control">
+                    <button data-am-bulma="button is-primary">
                       Send message
                     </button>
                   </div>
@@ -690,254 +690,254 @@
               </div>
             </div>
           </div>
-          <div class="column">
+          <div data-am-bulma="column">
             <br>
-            <h3 class="subtitle"> Colors </h3>
+            <h3 data-am-bulma="subtitle"> Colors </h3>
             <hr>
-            <div class="field">
-              <p class="control">
-                <input class="input is-primary" type="text" placeholder="Primary input">
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <input data-am-bulma="input is-primary" type="text" placeholder="Primary input">
               </p>
             </div>
-            <div class="field">
-              <p class="control">
-                <input class="input is-info" type="text" placeholder="Info input">
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <input data-am-bulma="input is-info" type="text" placeholder="Info input">
               </p>
             </div>
-            <div class="field">
-              <p class="control">
-                <input class="input is-success" type="text" placeholder="Success input">
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <input data-am-bulma="input is-success" type="text" placeholder="Success input">
               </p>
             </div>
-            <div class="field">
-              <p class="control">
-                <input class="input is-warning" type="text" placeholder="Warning input">
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <input data-am-bulma="input is-warning" type="text" placeholder="Warning input">
               </p>
             </div>
-            <div class="field">
-              <p class="control">
-                <input class="input is-danger" type="text" placeholder="Danger input">
-              </p>
-            </div>
-            <br>
-            <h3 class="subtitle"> Sizes </h3>
-            <hr>
-            <div class="field">
-              <p class="control">
-                <input class="input is-small" type="text" placeholder="Small input">
-              </p>
-            </div>
-            <div class="field">
-              <p class="control">
-                <input class="input" type="text" placeholder="Normal input">
-              </p>
-            </div>
-            <div class="field">
-              <p class="control">
-                <input class="input is-medium" type="text" placeholder="Medium input">
-              </p>
-            </div>
-            <div class="field">
-              <p class="control">
-                <input class="input is-large" type="text" placeholder="Large input">
-              </p>
-            </div>
-            <div class="field">
-              <p class="control">
-                <span class="select is-small">
-                  <select>
-                    <option>Select dropdown</option>
-                    <option>With options</option>
-                  </select>
-                </span>
-              </p>
-            </div>
-            <div class="field">
-              <p class="control">
-                <span class="select">
-                  <select>
-                    <option>Select dropdown</option>
-                    <option>With options</option>
-                  </select>
-                </span>
-              </p>
-            </div>
-            <div class="field">
-              <p class="control">
-                <span class="select is-medium">
-                  <select>
-                    <option>Select dropdown</option>
-                    <option>With options</option>
-                  </select>
-                </span>
-              </p>
-            </div>
-            <div class="field">
-              <p class="control">
-                <span class="select is-large">
-                  <select>
-                    <option>Select dropdown</option>
-                    <option>With options</option>
-                  </select>
-                </span>
-              </p>
-            </div>
-            <div class="field">
-              <label class="label is-small">Small input</label>
-              <p class="control has-icons-left has-icons-right">
-                <input class="input is-small" type="email" placeholder="Email">
-                <span class="icon is-small is-left">
-                  <i class="fa fa-envelope"></i>
-                </span>
-                <span class="icon is-small is-right">
-                  <i class="fa fa-check"></i>
-                </span>
-              </p>
-            </div>
-            <div class="field">
-              <label class="label">Normal input</label>
-              <p class="control has-icons-left has-icons-right">
-                <input class="input" type="email" placeholder="Email">
-                <span class="icon is-small is-left">
-                  <i class="fa fa-envelope"></i>
-                </span>
-                <span class="icon is-small is-right">
-                  <i class="fa fa-check"></i>
-                </span>
-              </p>
-            </div>
-            <div class="field">
-              <p class="control has-icons-left has-icons-right">
-                <input class="input" type="email" placeholder="Email">
-                <span class="icon is-left">
-                  <i class="fa fa-envelope"></i>
-                </span>
-                <span class="icon is-right">
-                  <i class="fa fa-check"></i>
-                </span>
-              </p>
-            </div>
-            <div class="field">
-              <label class="label is-medium">Medium input</label>
-              <p class="control has-icons-left has-icons-right">
-                <input class="input is-medium" type="email" placeholder="Email">
-                <span class="icon is-small is-left">
-                  <i class="fa fa-envelope"></i>
-                </span>
-                <span class="icon is-small is-right">
-                  <i class="fa fa-check"></i>
-                </span>
-              </p>
-            </div>
-            <div class="field">
-              <p class="control has-icons-left has-icons-right">
-                <input class="input is-medium" type="email" placeholder="Email">
-                <span class="icon is-left">
-                  <i class="fa fa-envelope"></i>
-                </span>
-                <span class="icon is-right">
-                  <i class="fa fa-check"></i>
-                </span>
-              </p>
-            </div>
-            <div class="field">
-              <p class="control has-icons-left has-icons-right">
-                <input class="input is-medium" type="email" placeholder="Email">
-                <span class="icon is-medium is-left">
-                  <i class="fa fa-envelope"></i>
-                </span>
-                <span class="icon is-medium is-right">
-                  <i class="fa fa-check"></i>
-                </span>
-              </p>
-            </div>
-            <div class="field">
-              <label class="label is-large">Large input</label>
-              <p class="control has-icons-left has-icons-right">
-                <input class="input is-large" type="email" placeholder="Email">
-                <span class="icon is-small is-left">
-                  <i class="fa fa-envelope"></i>
-                </span>
-                <span class="icon is-small is-right">
-                  <i class="fa fa-check"></i>
-                </span>
-              </p>
-            </div>
-            <div class="field">
-              <p class="control has-icons-left has-icons-right">
-                <input class="input is-large" type="email" placeholder="Email">
-                <span class="icon is-left">
-                  <i class="fa fa-envelope"></i>
-                </span>
-                <span class="icon is-right">
-                  <i class="fa fa-check"></i>
-                </span>
-              </p>
-            </div>
-            <div class="field">
-              <p class="control has-icons-left has-icons-right">
-                <input class="input is-large" type="email" placeholder="Email">
-                <span class="icon is-medium is-left">
-                  <i class="fa fa-envelope"></i>
-                </span>
-                <span class="icon is-medium is-right">
-                  <i class="fa fa-check"></i>
-                </span>
-              </p>
-            </div>
-            <div class="field">
-              <p class="control has-icons-left has-icons-right">
-                <input class="input is-large" type="email" placeholder="Email">
-                <span class="icon is-large is-left">
-                  <i class="fa fa-envelope"></i>
-                </span>
-                <span class="icon is-large is-right">
-                  <i class="fa fa-check"></i>
-                </span>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <input data-am-bulma="input is-danger" type="text" placeholder="Danger input">
               </p>
             </div>
             <br>
-            <h4 class="subtitle"> With Font Awesome icons </h4>
+            <h3 data-am-bulma="subtitle"> Sizes </h3>
             <hr>
-            <div class="field">
-              <p class="control has-icons-left">
-                <input class="input" type="email" placeholder="Email">
-                <span class="icon is-small is-left">
-                  <i class="fa fa-envelope"></i>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <input data-am-bulma="input is-small" type="text" placeholder="Small input">
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <input data-am-bulma="input" type="text" placeholder="Normal input">
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <input data-am-bulma="input is-medium" type="text" placeholder="Medium input">
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <input data-am-bulma="input is-large" type="text" placeholder="Large input">
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <span data-am-bulma="select is-small">
+                  <select>
+                    <option>Select dropdown</option>
+                    <option>With options</option>
+                  </select>
                 </span>
               </p>
             </div>
-            <div class="field">
-              <p class="control has-icons-left">
-                <input class="input" type="password" placeholder="Password">
-                <span class="icon is-small is-left">
-                  <i class="fa fa-lock"></i>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <span data-am-bulma="select">
+                  <select>
+                    <option>Select dropdown</option>
+                    <option>With options</option>
+                  </select>
                 </span>
               </p>
             </div>
-            <div class="field">
-              <p class="control">
-                <button class="button is-success">
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <span data-am-bulma="select is-medium">
+                  <select>
+                    <option>Select dropdown</option>
+                    <option>With options</option>
+                  </select>
+                </span>
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <span data-am-bulma="select is-large">
+                  <select>
+                    <option>Select dropdown</option>
+                    <option>With options</option>
+                  </select>
+                </span>
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <label data-am-bulma="label is-small">Small input</label>
+              <p data-am-bulma="control has-icons-left has-icons-right">
+                <input data-am-bulma="input is-small" type="email" placeholder="Email">
+                <span data-am-bulma="icon is-small is-left">
+                  <i data-am-bulma="fa fa-envelope"></i>
+                </span>
+                <span data-am-bulma="icon is-small is-right">
+                  <i data-am-bulma="fa fa-check"></i>
+                </span>
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <label data-am-bulma="label">Normal input</label>
+              <p data-am-bulma="control has-icons-left has-icons-right">
+                <input data-am-bulma="input" type="email" placeholder="Email">
+                <span data-am-bulma="icon is-small is-left">
+                  <i data-am-bulma="fa fa-envelope"></i>
+                </span>
+                <span data-am-bulma="icon is-small is-right">
+                  <i data-am-bulma="fa fa-check"></i>
+                </span>
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control has-icons-left has-icons-right">
+                <input data-am-bulma="input" type="email" placeholder="Email">
+                <span data-am-bulma="icon is-left">
+                  <i data-am-bulma="fa fa-envelope"></i>
+                </span>
+                <span data-am-bulma="icon is-right">
+                  <i data-am-bulma="fa fa-check"></i>
+                </span>
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <label data-am-bulma="label is-medium">Medium input</label>
+              <p data-am-bulma="control has-icons-left has-icons-right">
+                <input data-am-bulma="input is-medium" type="email" placeholder="Email">
+                <span data-am-bulma="icon is-small is-left">
+                  <i data-am-bulma="fa fa-envelope"></i>
+                </span>
+                <span data-am-bulma="icon is-small is-right">
+                  <i data-am-bulma="fa fa-check"></i>
+                </span>
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control has-icons-left has-icons-right">
+                <input data-am-bulma="input is-medium" type="email" placeholder="Email">
+                <span data-am-bulma="icon is-left">
+                  <i data-am-bulma="fa fa-envelope"></i>
+                </span>
+                <span data-am-bulma="icon is-right">
+                  <i data-am-bulma="fa fa-check"></i>
+                </span>
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control has-icons-left has-icons-right">
+                <input data-am-bulma="input is-medium" type="email" placeholder="Email">
+                <span data-am-bulma="icon is-medium is-left">
+                  <i data-am-bulma="fa fa-envelope"></i>
+                </span>
+                <span data-am-bulma="icon is-medium is-right">
+                  <i data-am-bulma="fa fa-check"></i>
+                </span>
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <label data-am-bulma="label is-large">Large input</label>
+              <p data-am-bulma="control has-icons-left has-icons-right">
+                <input data-am-bulma="input is-large" type="email" placeholder="Email">
+                <span data-am-bulma="icon is-small is-left">
+                  <i data-am-bulma="fa fa-envelope"></i>
+                </span>
+                <span data-am-bulma="icon is-small is-right">
+                  <i data-am-bulma="fa fa-check"></i>
+                </span>
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control has-icons-left has-icons-right">
+                <input data-am-bulma="input is-large" type="email" placeholder="Email">
+                <span data-am-bulma="icon is-left">
+                  <i data-am-bulma="fa fa-envelope"></i>
+                </span>
+                <span data-am-bulma="icon is-right">
+                  <i data-am-bulma="fa fa-check"></i>
+                </span>
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control has-icons-left has-icons-right">
+                <input data-am-bulma="input is-large" type="email" placeholder="Email">
+                <span data-am-bulma="icon is-medium is-left">
+                  <i data-am-bulma="fa fa-envelope"></i>
+                </span>
+                <span data-am-bulma="icon is-medium is-right">
+                  <i data-am-bulma="fa fa-check"></i>
+                </span>
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control has-icons-left has-icons-right">
+                <input data-am-bulma="input is-large" type="email" placeholder="Email">
+                <span data-am-bulma="icon is-large is-left">
+                  <i data-am-bulma="fa fa-envelope"></i>
+                </span>
+                <span data-am-bulma="icon is-large is-right">
+                  <i data-am-bulma="fa fa-check"></i>
+                </span>
+              </p>
+            </div>
+            <br>
+            <h4 data-am-bulma="subtitle"> With Font Awesome icons </h4>
+            <hr>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control has-icons-left">
+                <input data-am-bulma="input" type="email" placeholder="Email">
+                <span data-am-bulma="icon is-small is-left">
+                  <i data-am-bulma="fa fa-envelope"></i>
+                </span>
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control has-icons-left">
+                <input data-am-bulma="input" type="password" placeholder="Password">
+                <span data-am-bulma="icon is-small is-left">
+                  <i data-am-bulma="fa fa-lock"></i>
+                </span>
+              </p>
+            </div>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <button data-am-bulma="button is-success">
                   Login
                 </button>
               </p>
             </div>
             <br>
-            <h3 class="title"> Form addons </h3>
+            <h3 data-am-bulma="title"> Form addons </h3>
             <hr>
-            <div class="field has-addons">
-              <p class="control">
-                <input class="input" type="text" placeholder="Find a repository">
+            <div data-am-bulma="field has-addons">
+              <p data-am-bulma="control">
+                <input data-am-bulma="input" type="text" placeholder="Find a repository">
               </p>
-              <p class="control">
-                <a class="button is-info">
+              <p data-am-bulma="control">
+                <a data-am-bulma="button is-info">
                   Search
                 </a>
               </p>
             </div>
-            <div class="field has-addons">
-              <p class="control">
-                <span class="select">
+            <div data-am-bulma="field has-addons">
+              <p data-am-bulma="control">
+                <span data-am-bulma="select">
                   <select>
                     <option>$</option>
                     <option>£</option>
@@ -945,18 +945,18 @@
                   </select>
                 </span>
               </p>
-              <p class="control">
-                <input class="input" type="text" placeholder="Amount of money">
+              <p data-am-bulma="control">
+                <input data-am-bulma="input" type="text" placeholder="Amount of money">
               </p>
-              <p class="control">
-                <a class="button">
+              <p data-am-bulma="control">
+                <a data-am-bulma="button">
                   Transfer
                 </a>
               </p>
             </div>
-            <div class="field has-addons">
-              <p class="control">
-                <span class="select">
+            <div data-am-bulma="field has-addons">
+              <p data-am-bulma="control">
+                <span data-am-bulma="select">
                   <select>
                     <option>$</option>
                     <option>£</option>
@@ -964,18 +964,18 @@
                   </select>
                 </span>
               </p>
-              <p class="control is-expanded">
-                <input class="input" type="text" placeholder="Amount of money">
+              <p data-am-bulma="control is-expanded">
+                <input data-am-bulma="input" type="text" placeholder="Amount of money">
               </p>
-              <p class="control">
-                <a class="button">
+              <p data-am-bulma="control">
+                <a data-am-bulma="button">
                   Transfer
                 </a>
               </p>
             </div>
-            <div class="field has-addons">
-              <p class="control is-expanded">
-                <span class="select is-fullwidth">
+            <div data-am-bulma="field has-addons">
+              <p data-am-bulma="control is-expanded">
+                <span data-am-bulma="select is-fullwidth">
                   <select name="country">
                     <option value="Argentina">Argentina</option>
                     <option value="Bolivia">Bolivia</option>
@@ -992,16 +992,16 @@
                   </select>
                 </span>
               </p>
-              <p class="control">
-                <button type="submit" class="button is-primary">Choose</button>
+              <p data-am-bulma="control">
+                <button type="submit" data-am-bulma="button is-primary">Choose</button>
               </p>
             </div>
-            <div class="field is-grouped">
-              <p class="control is-expanded">
-                <input class="input" type="text" placeholder="Find a repository">
+            <div data-am-bulma="field is-grouped">
+              <p data-am-bulma="control is-expanded">
+                <input data-am-bulma="input" type="text" placeholder="Find a repository">
               </p>
-              <p class="control">
-                <a class="button is-info">
+              <p data-am-bulma="control">
+                <a data-am-bulma="button is-info">
                   Search
                 </a>
               </p>
@@ -1009,66 +1009,66 @@
           </div>
         </div>
       </section>
-      <section class="section" id="icon">
-        <h1 class="title"> Icons </h1>
+      <section data-am-bulma="section" id="icon">
+        <h1 data-am-bulma="title"> Icons </h1>
         <hr>
-        <span class="icon is-small"> <i class="fa fa-home"> </i> </span>
-        <span class="icon"> <i class="fa fa-home"> </i> </span>
-        <span class="icon is-medium"> <i class="fa fa-home"> </i> </span>
-        <span class="icon is-large"> <i class="fa fa-home"> </i> </span>
+        <span data-am-bulma="icon is-small"> <i data-am-bulma="fa fa-home"> </i> </span>
+        <span class="icon"> <i data-am-bulma="fa fa-home"> </i> </span>
+        <span data-am-bulma="icon is-medium"> <i data-am-bulma="fa fa-home"> </i> </span>
+        <span data-am-bulma="icon is-large"> <i data-am-bulma="fa fa-home"> </i> </span>
       </section>
-      <section class="section" id="images">
-        <h1 class="title"> Images </h1>
+      <section data-am-bulma="section" id="images">
+        <h1 data-am-bulma="title"> Images </h1>
         <hr>
-        <figure class="image is-128x128"> <img src="https://s3.amazonaws.com/uifaces/faces/twitter/zeldman/128.jpg">
+        <figure data-am-bulma="image is-128x128"> <img src="https://s3.amazonaws.com/uifaces/faces/twitter/zeldman/128.jpg">
         </figure>
       </section>
-      <section class="section" id="notifications">
-        <h1 class="title"> Notifications </h1>
+      <section data-am-bulma="section" id="notifications">
+        <h1 data-am-bulma="title"> Notifications </h1>
         <hr>
-        <div class="columns">
-          <div class="column">
-            <div class="notification">
-              <button class="delete"> </button> Lorem ipsum dolor sit amet,
+        <div data-am-bulma="columns">
+          <div data-am-bulma="column">
+            <div data-am-bulma="notification">
+              <button data-am-bulma="delete"> </button> Lorem ipsum dolor sit amet,
               <a href="#">consectetur</a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
-            <div class="notification is-primary">
-              <button class="delete"> </button> Primar lorem ipsum dolor sit amet,
+            <div data-am-bulma="notification is-primary">
+              <button data-am-bulma="delete"> </button> Primar lorem ipsum dolor sit amet,
               <a href="#">consectetur</a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
-            <div class="notification is-info">
-              <button class="delete"> </button> Info lorem ipsum dolor sit amet,
+            <div data-am-bulma="notification is-info">
+              <button data-am-bulma="delete"> </button> Info lorem ipsum dolor sit amet,
               <a href="#">consectetur</a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
           </div>
-          <div class="column">
-            <div class="notification is-success">
-              <button class="delete"> </button> Success lorem ipsum dolor sit amet,
+          <div data-am-bulma="column">
+            <div data-am-bulma="notification is-success">
+              <button data-am-bulma="delete"> </button> Success lorem ipsum dolor sit amet,
               <a href="#">consectetur</a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
-            <div class="notification is-warning">
-              <button class="delete"> </button> Warning lorem ipsum dolor sit amet,
+            <div data-am-bulma="notification is-warning">
+              <button data-am-bulma="delete"> </button> Warning lorem ipsum dolor sit amet,
               <a href="#">consectetur</a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
-            <div class="notification is-danger">
-              <button class="delete"> </button> Danger lorem ipsum dolor sit amet,
+            <div data-am-bulma="notification is-danger">
+              <button data-am-bulma="delete"> </button> Danger lorem ipsum dolor sit amet,
               <a href="#">consectetur</a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
           </div>
         </div>
       </section>
-      <section class="section" id="progress">
-        <h1 class="title"> Progress bars </h1>
+      <section data-am-bulma="section" id="progress">
+        <h1 data-am-bulma="title"> Progress bars </h1>
         <hr>
-        <progress class="progress" max="100" value="15"> 15% </progress>
-        <progress class="progress is-primary" max="100" value="30"> 30% </progress>
-        <progress class="progress is-info" max="100" value="45"> 45% </progress>
-        <progress class="progress is-success" max="100" value="60"> 60% </progress>
-        <progress class="progress is-warning" max="100" value="75"> 75% </progress>
-        <progress class="progress is-danger" max="100" value="90"> 90% </progress>
-        <progress class="progress is-small" max="100" value="15"> 15% </progress>
-        <progress class="progress" max="100" value="30"> 30% </progress>
-        <progress class="progress is-medium" max="100" value="45"> 45% </progress>
-        <progress class="progress is-large" max="100" value="60"> 60% </progress>
+        <progress data-am-bulma="progress" max="100" value="15"> 15% </progress>
+        <progress data-am-bulma="progress is-primary" max="100" value="30"> 30% </progress>
+        <progress data-am-bulma="progress is-info" max="100" value="45"> 45% </progress>
+        <progress data-am-bulma="progress is-success" max="100" value="60"> 60% </progress>
+        <progress data-am-bulma="progress is-warning" max="100" value="75"> 75% </progress>
+        <progress data-am-bulma="progress is-danger" max="100" value="90"> 90% </progress>
+        <progress data-am-bulma="progress is-small" max="100" value="15"> 15% </progress>
+        <progress data-am-bulma="progress" max="100" value="30"> 30% </progress>
+        <progress data-am-bulma="progress is-medium" max="100" value="45"> 45% </progress>
+        <progress data-am-bulma="progress is-large" max="100" value="60"> 60% </progress>
       </section>
-      <section class="section" id="table">
-        <h1 class="title"> Table </h1>
+      <section data-am-bulma="section" id="table">
+        <h1 data-am-bulma="title"> Table </h1>
         <hr>
-        <table class="table">
+        <table data-am-bulma="table">
           <thead>
             <tr>
               <th>
@@ -1455,7 +1455,7 @@
           </tbody>
         </table>
         <br>
-        <table class="table is-striped">
+        <table data-am-bulma="table is-striped">
           <thead>
             <tr>
               <th> One </th>
@@ -1486,7 +1486,7 @@
           </tbody>
         </table>
         <br>
-        <table class="table is-bordered">
+        <table data-am-bulma="table is-bordered">
           <thead>
             <tr>
               <th> One </th>
@@ -1501,7 +1501,7 @@
           </tbody>
         </table>
         <br>
-        <table class="table is-narrow">
+        <table data-am-bulma="table is-narrow">
           <thead>
             <tr>
               <th> One </th>
@@ -1532,7 +1532,7 @@
           </tbody>
         </table>
         <br>
-        <table class="table is-bordered is-striped is-narrow">
+        <table data-am-bulma="table is-bordered is-striped is-narrow">
           <thead>
             <tr>
               <th> One </th>
@@ -1563,62 +1563,62 @@
           </tbody>
         </table>
       </section>
-      <section class="section" id="tag">
-        <h1 class="title"> Tag </h1>
+      <section data-am-bulma="section" id="tag">
+        <h1 data-am-bulma="title"> Tag </h1>
         <hr>
-        <span class="tag is-black"> Black </span>
-        <span class="tag is-dark"> Dark </span>
-        <span class="tag is-light"> Light </span>
-        <span class="tag is-white"> White </span>
-        <span class="tag is-primary"> Primary </span>
-        <span class="tag is-info"> Info </span>
-        <span class="tag is-success"> Success </span>
-        <span class="tag is-warning"> Warning </span>
-        <span class="tag is-danger"> Danger </span>
-        <span class="tag is-primary is-medium"> Medium </span>
-        <span class="tag is-info is-large"> Large </span>
-        <span class="tag is-success"> Bar
-          <button class="delete is-small"> </button>
+        <span data-am-bulma="tag is-black"> Black </span>
+        <span data-am-bulma="tag is-dark"> Dark </span>
+        <span data-am-bulma="tag is-light"> Light </span>
+        <span data-am-bulma="tag is-white"> White </span>
+        <span data-am-bulma="tag is-primary"> Primary </span>
+        <span data-am-bulma="tag is-info"> Info </span>
+        <span data-am-bulma="tag is-success"> Success </span>
+        <span data-am-bulma="tag is-warning"> Warning </span>
+        <span data-am-bulma="tag is-danger"> Danger </span>
+        <span data-am-bulma="tag is-primary is-medium"> Medium </span>
+        <span data-am-bulma="tag is-info is-large"> Large </span>
+        <span data-am-bulma="tag is-success"> Bar
+          <button data-am-bulma="delete is-small"> </button>
         </span>
-        <span class="tag is-warning is-medium"> Hello
-          <button class="delete is-small"> </button>
+        <span data-am-bulma="tag is-warning is-medium"> Hello
+          <button data-am-bulma="delete is-small"> </button>
         </span>
-        <span class="tag is-danger is-large"> World
-          <button class="delete"> </button>
+        <span data-am-bulma="tag is-danger is-large"> World
+          <button data-am-bulma="delete"> </button>
         </span>
       </section>
-      <section class="section" id="hero">
-        <h1 class="title">Hero</h1>
+      <section data-am-bulma="section" id="hero">
+        <h1 data-am-bulma="title">Hero</h1>
         <hr>
-        <section class="hero is-info is-medium">
+        <section data-am-bulma="hero is-info is-medium">
           <!-- Hero header: will stick at the top -->
-          <div class="hero-head">
-            <header class="nav">
-              <div class="container">
-                <div class="nav-left">
-                  <a class="nav-item">
+          <div data-am-bulma="hero-head">
+            <header data-am-bulma="nav">
+              <div data-am-bulma="container">
+                <div data-am-bulma="nav-left">
+                  <a data-am-bulma="nav-item">
                     <img src="http://bulma.io/images/bulma-type-white.png" alt="Logo">
                   </a>
                 </div>
-                <span class="nav-toggle">
+                <span data-am-bulma="nav-toggle">
                   <span></span>
                   <span></span>
                   <span></span>
                 </span>
-                <div class="nav-right nav-menu">
-                  <a class="nav-item is-active">
+                <div data-am-bulma="nav-right nav-menu">
+                  <a data-am-bulma="nav-item is-active">
                     Home
                   </a>
-                  <a class="nav-item">
+                  <a data-am-bulma="nav-item">
                     Examples
                   </a>
-                  <a class="nav-item">
+                  <a data-am-bulma="nav-item">
                     Documentation
                   </a>
-                  <span class="nav-item">
-                    <a class="button is-primary is-inverted">
+                  <span data-am-bulma="nav-item">
+                    <a data-am-bulma="button is-primary is-inverted">
                       <span class="icon">
-                        <i class="fa fa-github"></i>
+                        <i data-am-bulma="fa fa-github"></i>
                       </span>
                       <span>Download</span>
                     </a>
@@ -1628,22 +1628,22 @@
             </header>
           </div>
           <!-- Hero content: will be in the middle -->
-          <div class="hero-body">
-            <div class="container has-text-centered">
-              <h1 class="title">
+          <div data-am-bulma="hero-body">
+            <div data-am-bulma="container has-text-centered">
+              <h1 data-am-bulma="title">
                 Title
               </h1>
-              <h2 class="subtitle">
+              <h2 data-am-bulma="subtitle">
                 Subtitle
               </h2>
             </div>
           </div>
           <!-- Hero footer: will stick at the bottom -->
-          <div class="hero-foot">
-            <nav class="tabs is-boxed">
-              <div class="container">
+          <div data-am-bulma="hero-foot">
+            <nav data-am-bulma="tabs is-boxed">
+              <div data-am-bulma="container">
                 <ul>
-                  <li class="is-active">
+                  <li data-am-bulma="is-active">
                     <a>Overview</a>
                   </li>
                   <li>
@@ -1667,26 +1667,26 @@
           </div>
         </section>
       </section>
-      <section class="section" id="card">
-        <h1 class="title">Cards</h1>
+      <section data-am-bulma="section" id="card">
+        <h1 data-am-bulma="title">Cards</h1>
         <hr>
-        <div class="columns">
-          <div class="column">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3"> <img src="https://source.unsplash.com/random/800x600" alt="Image"> </figure>
+        <div data-am-bulma="columns">
+          <div data-am-bulma="column">
+            <div data-am-bulma="card">
+              <div data-am-bulma="card-image">
+                <figure data-am-bulma="image is-4by3"> <img src="https://source.unsplash.com/random/800x600" alt="Image"> </figure>
               </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                    <figure class="image" style="height: 40px; width: 40px;"> <img src="https://source.unsplash.com/random/96x96" alt="Image"> </figure>
+              <div data-am-bulma="card-content">
+                <div data-am-bulma="media">
+                  <div data-am-bulma="media-left">
+                    <figure data-am-bulma="image" style="height: 40px; width: 40px;"> <img src="https://source.unsplash.com/random/96x96" alt="Image"> </figure>
                   </div>
-                  <div class="media-content">
-                    <p class="title is-4">John Smith</p>
-                    <p class="subtitle is-6">@johnsmith</p>
+                  <div data-am-bulma="media-content">
+                    <p data-am-bulma="title is-4">John Smith</p>
+                    <p data-am-bulma="subtitle is-6">@johnsmith</p>
                   </div>
                 </div>
-                <div class="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                <div data-am-bulma="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
                   <a>@bulmaio</a>.
                   <a>#css</a>
                   <a>#responsive</a>
@@ -1694,47 +1694,47 @@
               </div>
             </div>
           </div>
-          <div class="column">
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title"> Component </p>
-                <a class="card-header-icon">
-                  <span class="icon"> <i class="fa fa-angle-down"></i> </span>
+          <div data-am-bulma="column">
+            <div data-am-bulma="card">
+              <header data-am-bulma="card-header">
+                <p data-am-bulma="card-header-title"> Component </p>
+                <a data-am-bulma="card-header-icon">
+                  <span class="icon"> <i data-am-bulma="fa fa-angle-down"></i> </span>
                 </a>
               </header>
-              <div class="card-content">
-                <div class="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+              <div data-am-bulma="card-content">
+                <div data-am-bulma="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
                   <a>@bulmaio</a>.
                   <a>#css</a>
                   <a>#responsive</a>
                   <br> <small>11:09 PM - 1 Jan 2016</small> </div>
               </div>
-              <footer class="card-footer">
-                <a class="card-footer-item">Save</a>
-                <a class="card-footer-item">Edit</a>
-                <a class="card-footer-item">Delete</a>
+              <footer data-am-bulma="card-footer">
+                <a data-am-bulma="card-footer-item">Save</a>
+                <a data-am-bulma="card-footer-item">Edit</a>
+                <a data-am-bulma="card-footer-item">Delete</a>
               </footer>
             </div>
           </div>
         </div>
       </section>
-      <section class="section" id="level">
-        <h1 class="title">Level</h1>
+      <section data-am-bulma="section" id="level">
+        <h1 data-am-bulma="title">Level</h1>
         <hr>
         <!-- Main container -->
-        <nav class="level">
+        <nav data-am-bulma="level">
           <!-- Left side -->
-          <div class="level-left">
-            <div class="level-item">
-              <p class="subtitle is-5"> <strong>123</strong> posts </p>
+          <div data-am-bulma="level-left">
+            <div data-am-bulma="level-item">
+              <p data-am-bulma="subtitle is-5"> <strong>123</strong> posts </p>
             </div>
-            <div class="level-item">
-              <div class="field has-addons">
-                <p class="control">
-                  <input class="input" type="text" placeholder="Find a post">
+            <div data-am-bulma="level-item">
+              <div data-am-bulma="field has-addons">
+                <p data-am-bulma="control">
+                  <input data-am-bulma="input" type="text" placeholder="Find a post">
                 </p>
-                <p class="control">
-                  <button class="button">
+                <p data-am-bulma="control">
+                  <button data-am-bulma="button">
                     Search
                   </button>
                 </p>
@@ -1742,150 +1742,150 @@
             </div>
           </div>
           <!-- Right side -->
-          <div class="level-right">
-            <p class="level-item"><strong>All</strong></p>
-            <p class="level-item">
+          <div data-am-bulma="level-right">
+            <p data-am-bulma="level-item"><strong>All</strong></p>
+            <p data-am-bulma="level-item">
               <a>Published</a>
             </p>
-            <p class="level-item">
+            <p data-am-bulma="level-item">
               <a>Drafts</a>
             </p>
-            <p class="level-item">
+            <p data-am-bulma="level-item">
               <a>Deleted</a>
             </p>
-            <p class="level-item">
-              <a class="button is-success">New</a>
+            <p data-am-bulma="level-item">
+              <a data-am-bulma="button is-success">New</a>
             </p>
           </div>
         </nav>
         <hr>
-        <nav class="level">
-          <div class="level-item has-text-centered">
+        <nav data-am-bulma="level">
+          <div data-am-bulma="level-item has-text-centered">
             <div>
-              <p class="heading">Tweets</p>
-              <p class="title">3,456</p>
+              <p data-am-bulma="heading">Tweets</p>
+              <p data-am-bulma="title">3,456</p>
             </div>
           </div>
-          <div class="level-item has-text-centered">
+          <div data-am-bulma="level-item has-text-centered">
             <div>
-              <p class="heading">Following</p>
-              <p class="title">123</p>
+              <p data-am-bulma="heading">Following</p>
+              <p data-am-bulma="title">123</p>
             </div>
           </div>
-          <div class="level-item has-text-centered">
+          <div data-am-bulma="level-item has-text-centered">
             <div>
-              <p class="heading">Followers</p>
-              <p class="title">456K</p>
+              <p data-am-bulma="heading">Followers</p>
+              <p data-am-bulma="title">456K</p>
             </div>
           </div>
-          <div class="level-item has-text-centered">
+          <div data-am-bulma="level-item has-text-centered">
             <div>
-              <p class="heading">Likes</p>
-              <p class="title">789</p>
+              <p data-am-bulma="heading">Likes</p>
+              <p data-am-bulma="title">789</p>
             </div>
           </div>
         </nav>
         <hr>
-        <nav class="level">
-          <p class="level-item has-text-centered">
-            <a class="link is-info">Home</a>
+        <nav data-am-bulma="level">
+          <p data-am-bulma="level-item has-text-centered">
+            <a data-am-bulma="link is-info">Home</a>
           </p>
-          <p class="level-item has-text-centered">
-            <a class="link is-info">Menu</a>
+          <p data-am-bulma="level-item has-text-centered">
+            <a data-am-bulma="link is-info">Menu</a>
           </p>
-          <p class="level-item has-text-centered"> <img src="http://bulma.io/images/bulma-type.png" alt="" style="height: 30px;"> </p>
-          <p class="level-item has-text-centered">
-            <a class="link is-info">Reservations</a>
+          <p data-am-bulma="level-item has-text-centered"> <img src="http://bulma.io/images/bulma-type.png" alt="" style="height: 30px;"> </p>
+          <p data-am-bulma="level-item has-text-centered">
+            <a data-am-bulma="link is-info">Reservations</a>
           </p>
-          <p class="level-item has-text-centered">
-            <a class="link is-info">Contact</a>
+          <p data-am-bulma="level-item has-text-centered">
+            <a data-am-bulma="link is-info">Contact</a>
           </p>
         </nav>
         <hr>
-        <nav class="level is-mobile">
-          <div class="level-item has-text-centered">
+        <nav data-am-bulma="level is-mobile">
+          <div data-am-bulma="level-item has-text-centered">
             <div>
-              <p class="heading">Tweets</p>
-              <p class="title">3,456</p>
+              <p data-am-bulma="heading">Tweets</p>
+              <p data-am-bulma="title">3,456</p>
             </div>
           </div>
-          <div class="level-item has-text-centered">
+          <div data-am-bulma="level-item has-text-centered">
             <div>
-              <p class="heading">Following</p>
-              <p class="title">123</p>
+              <p data-am-bulma="heading">Following</p>
+              <p data-am-bulma="title">123</p>
             </div>
           </div>
-          <div class="level-item has-text-centered">
+          <div data-am-bulma="level-item has-text-centered">
             <div>
-              <p class="heading">Followers</p>
-              <p class="title">456K</p>
+              <p data-am-bulma="heading">Followers</p>
+              <p data-am-bulma="title">456K</p>
             </div>
           </div>
-          <div class="level-item has-text-centered">
+          <div data-am-bulma="level-item has-text-centered">
             <div>
-              <p class="heading">Likes</p>
-              <p class="title">789</p>
+              <p data-am-bulma="heading">Likes</p>
+              <p data-am-bulma="title">789</p>
             </div>
           </div>
         </nav>
         <hr>
       </section>
-      <section class="section" id="media">
-        <h1 class="title">Media Object</h1>
+      <section data-am-bulma="section" id="media">
+        <h1 data-am-bulma="title">Media Object</h1>
         <hr>
-        <article class="media">
-          <figure class="media-left">
-            <p class="image is-64x64">
+        <article data-am-bulma="media">
+          <figure data-am-bulma="media-left">
+            <p data-am-bulma="image is-64x64">
               <img src="https://s3.amazonaws.com/uifaces/faces/twitter/zeldman/128.jpg">
             </p>
           </figure>
-          <div class="media-content">
-            <div class="content">
+          <div data-am-bulma="media-content">
+            <div data-am-bulma="content">
               <p>
                 <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
                 <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
               </p>
             </div>
-            <nav class="level">
-              <div class="level-left">
-                <a class="level-item">
-                  <span class="icon is-small"><i class="fa fa-reply"></i></span>
+            <nav data-am-bulma="level">
+              <div data-am-bulma="level-left">
+                <a data-am-bulma="level-item">
+                  <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-reply"></i></span>
                 </a>
-                <a class="level-item">
-                  <span class="icon is-small"><i class="fa fa-retweet"></i></span>
+                <a data-am-bulma="level-item">
+                  <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-retweet"></i></span>
                 </a>
-                <a class="level-item">
-                  <span class="icon is-small"><i class="fa fa-heart"></i></span>
+                <a data-am-bulma="level-item">
+                  <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-heart"></i></span>
                 </a>
               </div>
             </nav>
           </div>
-          <div class="media-right">
-            <button class="delete"></button>
+          <div data-am-bulma="media-right">
+            <button data-am-bulma="delete"></button>
           </div>
         </article>
         <hr>
-        <article class="media">
-          <figure class="media-left">
-            <p class="image is-64x64">
+        <article data-am-bulma="media">
+          <figure data-am-bulma="media-left">
+            <p data-am-bulma="image is-64x64">
               <img src="https://s3.amazonaws.com/uifaces/faces/twitter/zeldman/128.jpg">
             </p>
           </figure>
-          <div class="media-content">
-            <div class="field">
-              <p class="control">
-                <textarea class="textarea" placeholder="Add a comment..."></textarea>
+          <div data-am-bulma="media-content">
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <textarea data-am-bulma="textarea" placeholder="Add a comment..."></textarea>
               </p>
             </div>
-            <nav class="level">
-              <div class="level-left">
-                <div class="level-item">
-                  <a class="button is-info">Post comment</a>
+            <nav data-am-bulma="level">
+              <div data-am-bulma="level-left">
+                <div data-am-bulma="level-item">
+                  <a data-am-bulma="button is-info">Post comment</a>
                 </div>
               </div>
-              <div class="level-right">
-                <div class="level-item">
-                  <label class="checkbox">
+              <div data-am-bulma="level-right">
+                <div data-am-bulma="level-item">
+                  <label data-am-bulma="checkbox">
                     <input type="checkbox"> Press enter to submit
                   </label>
                 </div>
@@ -1894,15 +1894,15 @@
           </div>
         </article>
         <hr>
-        <h4 class="subtitle">Nesting</h4>
-        <article class="media">
-          <figure class="media-left">
-            <p class="image is-64x64">
+        <h4 data-am-bulma="subtitle">Nesting</h4>
+        <article data-am-bulma="media">
+          <figure data-am-bulma="media-left">
+            <p data-am-bulma="image is-64x64">
               <img src="https://s3.amazonaws.com/uifaces/faces/twitter/zeldman/128.jpg">
             </p>
           </figure>
-          <div class="media-content">
-            <div class="content">
+          <div data-am-bulma="media-content">
+            <div data-am-bulma="content">
               <p>
                 <strong>Barbara Middleton</strong>
                 <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta eros lacus, nec ultricies elit blandit non. Suspendisse pellentesque mauris sit amet dolor blandit rutrum. Nunc in tempus turpis.
@@ -1910,14 +1910,14 @@
                 <small><a>Like</a> · <a>Reply</a> · 3 hrs</small>
               </p>
             </div>
-            <article class="media">
-              <figure class="media-left">
-                <p class="image is-48x48">
+            <article data-am-bulma="media">
+              <figure data-am-bulma="media-left">
+                <p data-am-bulma="image is-48x48">
                   <img src="http://bulma.io/images/placeholders/96x96.png">
                 </p>
               </figure>
-              <div class="media-content">
-                <div class="content">
+              <div data-am-bulma="media-content">
+                <div data-am-bulma="content">
                   <p>
                     <strong>Sean Brown</strong>
                     <br> Donec sollicitudin urna eget eros malesuada sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam blandit nisl a nulla sagittis, a lobortis leo feugiat.
@@ -1925,22 +1925,22 @@
                     <small><a>Like</a> · <a>Reply</a> · 2 hrs</small>
                   </p>
                 </div>
-                <article class="media">
+                <article data-am-bulma="media">
                   Vivamus quis semper metus, non tincidunt dolor. Vivamus in mi eu lorem cursus ullamcorper sit amet nec massa.
                 </article>
-                <article class="media">
+                <article data-am-bulma="media">
                   Morbi vitae diam et purus tincidunt porttitor vel vitae augue. Praesent malesuada metus sed pharetra euismod. Cras tellus odio, tincidunt iaculis diam non, porta aliquet tortor.
                 </article>
               </div>
             </article>
-            <article class="media">
-              <figure class="media-left">
-                <p class="image is-48x48">
+            <article data-am-bulma="media">
+              <figure data-am-bulma="media-left">
+                <p data-am-bulma="image is-48x48">
                   <img src="http://bulma.io/images/placeholders/96x96.png">
                 </p>
               </figure>
-              <div class="media-content">
-                <div class="content">
+              <div data-am-bulma="media-content">
+                <div data-am-bulma="content">
                   <p>
                     <strong>Kayli Eunice </strong>
                     <br> Sed convallis scelerisque mauris, non pulvinar nunc mattis vel. Maecenas varius felis sit amet magna vestibulum euismod malesuada cursus libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus lacinia non nisl id feugiat.
@@ -1952,35 +1952,35 @@
             </article>
           </div>
         </article>
-        <article class="media">
-          <figure class="media-left">
-            <p class="image is-64x64">
+        <article data-am-bulma="media">
+          <figure data-am-bulma="media-left">
+            <p data-am-bulma="image is-64x64">
               <img src="https://s3.amazonaws.com/uifaces/faces/twitter/zeldman/128.jpg">
             </p>
           </figure>
-          <div class="media-content">
-            <div class="field">
-              <p class="control">
-                <textarea class="textarea" placeholder="Add a comment..."></textarea>
+          <div data-am-bulma="media-content">
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <textarea data-am-bulma="textarea" placeholder="Add a comment..."></textarea>
               </p>
             </div>
-            <div class="field">
-              <p class="control">
-                <button class="button">Post comment</button>
+            <div data-am-bulma="field">
+              <p data-am-bulma="control">
+                <button data-am-bulma="button">Post comment</button>
               </p>
             </div>
           </div>
         </article>
       </section>
-      <section class="section" id="menu">
-        <h1 class="title">Menu</h1>
+      <section data-am-bulma="section" id="menu">
+        <h1 data-am-bulma="title">Menu</h1>
         <hr>
-        <div class="column is-3">
-          <aside class="menu">
-            <p class="menu-label">
+        <div data-am-bulma="column is-3">
+          <aside data-am-bulma="menu">
+            <p data-am-bulma="menu-label">
               General
             </p>
-            <ul class="menu-list">
+            <ul data-am-bulma="menu-list">
               <li>
                 <a>Dashboard</a>
               </li>
@@ -1988,15 +1988,15 @@
                 <a>Customers</a>
               </li>
             </ul>
-            <p class="menu-label">
+            <p data-am-bulma="menu-label">
               Administration
             </p>
-            <ul class="menu-list">
+            <ul data-am-bulma="menu-list">
               <li>
                 <a>Team Settings</a>
               </li>
               <li>
-                <a class="is-active">Manage Your Team</a>
+                <a data-am-bulma="is-active">Manage Your Team</a>
                 <ul>
                   <li>
                     <a>Members</a>
@@ -2019,10 +2019,10 @@
                 <a>Authentication</a>
               </li>
             </ul>
-            <p class="menu-label">
+            <p data-am-bulma="menu-label">
               Transactions
             </p>
-            <ul class="menu-list">
+            <ul data-am-bulma="menu-list">
               <li>
                 <a>Payments</a>
               </li>
@@ -2036,129 +2036,129 @@
           </aside>
         </div>
       </section>
-      <section class="section" id="message">
-        <h1 class="title">Message</h1>
+      <section data-am-bulma="section" id="message">
+        <h1 data-am-bulma="title">Message</h1>
         <hr>
-        <div class="columns">
-          <div class="column">
-            <article class="message">
-              <div class="message-header">
+        <div data-am-bulma="columns">
+          <div data-am-bulma="column">
+            <article data-am-bulma="message">
+              <div data-am-bulma="message-header">
                 <p>Hello World</p>
-                <button class="delete"></button>
+                <button data-am-bulma="delete"></button>
               </div>
-              <div class="message-body">
+              <div data-am-bulma="message-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
                 <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
               </div>
             </article>
-            <article class="message is-dark">
-              <div class="message-header">
+            <article data-am-bulma="message is-dark">
+              <div data-am-bulma="message-header">
                 <p>Dark</p>
-                <button class="delete"></button>
+                <button data-am-bulma="delete"></button>
               </div>
-              <div class="message-body">
+              <div data-am-bulma="message-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
                 <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
               </div>
             </article>
-            <article class="message is-primary">
-              <div class="message-header">
+            <article data-am-bulma="message is-primary">
+              <div data-am-bulma="message-header">
                 <p>Primary</p>
-                <button class="delete"></button>
+                <button data-am-bulma="delete"></button>
               </div>
-              <div class="message-body">
+              <div data-am-bulma="message-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
                 <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
               </div>
             </article>
-            <article class="message is-info">
-              <div class="message-header">
+            <article data-am-bulma="message is-info">
+              <div data-am-bulma="message-header">
                 <p>Info</p>
-                <button class="delete"></button>
+                <button data-am-bulma="delete"></button>
               </div>
-              <div class="message-body">
+              <div data-am-bulma="message-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
                 <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
               </div>
             </article>
           </div>
-          <div class="column">
-            <article class="message is-success">
-              <div class="message-header">
+          <div data-am-bulma="column">
+            <article data-am-bulma="message is-success">
+              <div data-am-bulma="message-header">
                 <p>Success</p>
-                <button class="delete"></button>
+                <button data-am-bulma="delete"></button>
               </div>
-              <div class="message-body">
+              <div data-am-bulma="message-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
                 <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
               </div>
             </article>
-            <article class="message is-warning">
-              <div class="message-header">
+            <article data-am-bulma="message is-warning">
+              <div data-am-bulma="message-header">
                 <p>Warning</p>
-                <button class="delete"></button>
+                <button data-am-bulma="delete"></button>
               </div>
-              <div class="message-body">
+              <div data-am-bulma="message-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
                 <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
               </div>
             </article>
-            <article class="message is-danger">
-              <div class="message-header">
+            <article data-am-bulma="message is-danger">
+              <div data-am-bulma="message-header">
                 <p><strong>Danger</strong>!
                   <a>Learn more</a>
                 </p>
-                <button class="delete"></button>
+                <button data-am-bulma="delete"></button>
               </div>
-              <div class="message-body">
+              <div data-am-bulma="message-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
                 <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
               </div>
             </article>
           </div>
         </div>
-        <div class="columns">
-          <div class="column">
-            <article class="message">
-              <div class="message-body">
+        <div data-am-bulma="columns">
+          <div data-am-bulma="column">
+            <article data-am-bulma="message">
+              <div data-am-bulma="message-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
                 <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
               </div>
             </article>
-            <article class="message is-dark">
-              <div class="message-body">
+            <article data-am-bulma="message is-dark">
+              <div data-am-bulma="message-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
                 <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
               </div>
             </article>
-            <article class="message is-primary">
-              <div class="message-body">
+            <article data-am-bulma="message is-primary">
+              <div data-am-bulma="message-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
                 <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
               </div>
             </article>
-            <article class="message is-info">
-              <div class="message-body">
+            <article data-am-bulma="message is-info">
+              <div data-am-bulma="message-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
                 <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
               </div>
             </article>
           </div>
-          <div class="column">
-            <article class="message is-success">
-              <div class="message-body">
+          <div data-am-bulma="column">
+            <article data-am-bulma="message is-success">
+              <div data-am-bulma="message-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
                 <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
               </div>
             </article>
-            <article class="message is-warning">
-              <div class="message-body">
+            <article data-am-bulma="message is-warning">
+              <div data-am-bulma="message-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
                 <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
               </div>
             </article>
-            <article class="message is-danger">
-              <div class="message-body">
+            <article data-am-bulma="message is-danger">
+              <div data-am-bulma="message-body">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
                 <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
               </div>
@@ -2166,69 +2166,69 @@
           </div>
         </div>
       </section>
-      <section class="section" id="modal">
-        <h1 class="title">Modal</h1>
+      <section data-am-bulma="section" id="modal">
+        <h1 data-am-bulma="title">Modal</h1>
         <hr>
-        <a class="button is-primary is-large" data-target="#myModal" onclick="$('#myModal').toggleClass('is-active')">Launch example modal</a>
-        <div class="modal" id="myModal">
-          <div class="modal-background"></div>
-          <div class="modal-card">
-            <header class="modal-card-head">
-              <p class="modal-card-title">Modal title</p>
-              <button class="delete"></button>
+        <a data-am-bulma="button is-primary is-large" data-target="#myModal" onclick="$('#myModal').toggleClass('is-active')">Launch example modal</a>
+        <div data-am-bulma="modal" id="myModal">
+          <div data-am-bulma="modal-background"></div>
+          <div data-am-bulma="modal-card">
+            <header data-am-bulma="modal-card-head">
+              <p data-am-bulma="modal-card-title">Modal title</p>
+              <button data-am-bulma="delete"></button>
             </header>
-            <section class="modal-card-body">
+            <section data-am-bulma="modal-card-body">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </section>
-            <footer class="modal-card-foot">
-              <a class="button is-primary">Save changes</a>
-              <a class="button">Cancel</a>
+            <footer data-am-bulma="modal-card-foot">
+              <a data-am-bulma="button is-primary">Save changes</a>
+              <a data-am-bulma="button">Cancel</a>
             </footer>
           </div>
         </div>
       </section>
-      <section class="section" id="nav">
-        <h1 class="title">Nav</h1>
+      <section data-am-bulma="section" id="nav">
+        <h1 data-am-bulma="title">Nav</h1>
         <hr>
-        <nav class="nav">
-          <div class="nav-left">
-            <a class="nav-item"> <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo"> </a>
+        <nav data-am-bulma="nav">
+          <div data-am-bulma="nav-left">
+            <a data-am-bulma="nav-item"> <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo"> </a>
           </div>
-          <div class="nav-center">
-            <a class="nav-item">
-              <span class="icon"> <i class="fa fa-github"></i> </span>
+          <div data-am-bulma="nav-center">
+            <a data-am-bulma="nav-item">
+              <span class="icon"> <i data-am-bulma="fa fa-github"></i> </span>
             </a>
-            <a class="nav-item">
-              <span class="icon"> <i class="fa fa-twitter"></i> </span>
+            <a data-am-bulma="nav-item">
+              <span class="icon"> <i data-am-bulma="fa fa-twitter"></i> </span>
             </a>
           </div>
           <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
           <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-          <span class="nav-toggle">
+          <span data-am-bulma="nav-toggle">
             <span></span>
             <span></span>
             <span></span>
           </span>
           <!-- This "nav-menu" is hidden on mobile -->
           <!-- Add the modifier "is-active" to display it on mobile -->
-          <div class="nav-right nav-menu">
-            <a class="nav-item"> Home </a>
-            <a class="nav-item"> Documentation </a>
-            <a class="nav-item"> Blog </a>
-            <div class="nav-item">
-              <div class="field is-grouped">
-                <p class="control">
-                  <a class="button">
+          <div data-am-bulma="nav-right nav-menu">
+            <a data-am-bulma="nav-item"> Home </a>
+            <a data-am-bulma="nav-item"> Documentation </a>
+            <a data-am-bulma="nav-item"> Blog </a>
+            <div data-am-bulma="nav-item">
+              <div data-am-bulma="field is-grouped">
+                <p data-am-bulma="control">
+                  <a data-am-bulma="button">
                     <span class="icon">
-                      <i class="fa fa-twitter"></i>
+                      <i data-am-bulma="fa fa-twitter"></i>
                     </span>
                     <span>Tweet</span>
                   </a>
                 </p>
-                <p class="control">
-                  <a class="button is-primary">
+                <p data-am-bulma="control">
+                  <a data-am-bulma="button is-primary">
                     <span class="icon">
-                      <i class="fa fa-download"></i>
+                      <i data-am-bulma="fa fa-download"></i>
                     </span>
                     <span>Download</span>
                   </a>
@@ -2238,117 +2238,117 @@
           </div>
         </nav>
         <hr>
-        <h4 class="subtitle">Variant</h4>
-        <nav class="nav has-shadow">
-          <div class="container">
-            <div class="nav-left">
-              <a class="nav-item">
+        <h4 data-am-bulma="subtitle">Variant</h4>
+        <nav data-am-bulma="nav has-shadow">
+          <div data-am-bulma="container">
+            <div data-am-bulma="nav-left">
+              <a data-am-bulma="nav-item">
                 <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo">
               </a>
-              <a class="nav-item is-tab is-hidden-mobile is-active">Home</a>
-              <a class="nav-item is-tab is-hidden-mobile">Features</a>
-              <a class="nav-item is-tab is-hidden-mobile">Pricing</a>
-              <a class="nav-item is-tab is-hidden-mobile">About</a>
+              <a data-am-bulma="nav-item is-tab is-hidden-mobile is-active">Home</a>
+              <a data-am-bulma="nav-item is-tab is-hidden-mobile">Features</a>
+              <a data-am-bulma="nav-item is-tab is-hidden-mobile">Pricing</a>
+              <a data-am-bulma="nav-item is-tab is-hidden-mobile">About</a>
             </div>
-            <span class="nav-toggle">
+            <span data-am-bulma="nav-toggle">
               <span></span>
               <span></span>
               <span></span>
             </span>
-            <div class="nav-right nav-menu">
-              <a class="nav-item is-tab is-hidden-tablet is-active">Home</a>
-              <a class="nav-item is-tab is-hidden-tablet">Features</a>
-              <a class="nav-item is-tab is-hidden-tablet">Pricing</a>
-              <a class="nav-item is-tab is-hidden-tablet">About</a>
-              <a class="nav-item is-tab">
-                <figure class="image is-16x16" style="margin-right: 8px;">
+            <div data-am-bulma="nav-right nav-menu">
+              <a data-am-bulma="nav-item is-tab is-hidden-tablet is-active">Home</a>
+              <a data-am-bulma="nav-item is-tab is-hidden-tablet">Features</a>
+              <a data-am-bulma="nav-item is-tab is-hidden-tablet">Pricing</a>
+              <a data-am-bulma="nav-item is-tab is-hidden-tablet">About</a>
+              <a data-am-bulma="nav-item is-tab">
+                <figure data-am-bulma="image is-16x16" style="margin-right: 8px;">
                   <img src="http://bulma.io/images/jgthms.png">
                 </figure>
                 Profile
               </a>
-              <a class="nav-item is-tab">Log out</a>
+              <a data-am-bulma="nav-item is-tab">Log out</a>
             </div>
           </div>
         </nav>
       </section>
-      <section class="section" id="pagination">
-        <h1 class="title">Pagination</h1>
+      <section data-am-bulma="section" id="pagination">
+        <h1 data-am-bulma="title">Pagination</h1>
         <hr>
-        <nav class="pagination">
-          <a class="pagination-previous is-disabled">Previous</a>
-          <a class="pagination-next">Next page</a>
-          <ul class="pagination-list">
+        <nav data-am-bulma="pagination">
+          <a data-am-bulma="pagination-previous is-disabled">Previous</a>
+          <a data-am-bulma="pagination-next">Next page</a>
+          <ul data-am-bulma="pagination-list">
             <li>
-              <a class="pagination-link">1</a>
+              <a data-am-bulma="pagination-link">1</a>
             </li>
             <li>
-              <span class="pagination-ellipsis">&hellip;</span>
+              <span data-am-bulma="pagination-ellipsis">&hellip;</span>
             </li>
             <li>
-              <a class="pagination-link">45</a>
+              <a data-am-bulma="pagination-link">45</a>
             </li>
             <li>
-              <a class="pagination-link is-current">46</a>
+              <a data-am-bulma="pagination-link is-current">46</a>
             </li>
             <li>
-              <a class="pagination-link">47</a>
+              <a data-am-bulma="pagination-link">47</a>
             </li>
             <li>
-              <span class="pagination-ellipsis">&hellip;</span>
+              <span data-am-bulma="pagination-ellipsis">&hellip;</span>
             </li>
             <li>
-              <a class="pagination-link">86</a>
+              <a data-am-bulma="pagination-link">86</a>
             </li>
           </ul>
         </nav>
       </section>
-      <section class="section" id="panel">
-        <h1 class="title">Panel</h1>
+      <section data-am-bulma="section" id="panel">
+        <h1 data-am-bulma="title">Panel</h1>
         <hr>
-        <div class="column is-4">
-          <nav class="panel">
-            <p class="panel-heading"> Repositories </p>
-            <div class="panel-block">
-              <p class="control has-icons-left">
-                <input class="input is-small" type="text" placeholder="Search">
-                <span class="icon is-small is-left">
-                  <i class="fa fa-search"></i>
+        <div data-am-bulma="column is-4">
+          <nav data-am-bulma="panel">
+            <p data-am-bulma="panel-heading"> Repositories </p>
+            <div data-am-bulma="panel-block">
+              <p data-am-bulma="control has-icons-left">
+                <input data-am-bulma="input is-small" type="text" placeholder="Search">
+                <span data-am-bulma="icon is-small is-left">
+                  <i data-am-bulma="fa fa-search"></i>
                 </span>
               </p>
             </div>
-            <p class="panel-tabs">
-              <a class="is-active">All</a>
+            <p data-am-bulma="panel-tabs">
+              <a data-am-bulma="is-active">All</a>
               <a>Public</a>
               <a>Private</a>
               <a>Sources</a>
               <a>Forks</a>
             </p>
-            <a class="panel-block is-active">
-              <span class="panel-icon"> <i class="fa fa-book"></i> </span> bulma </a>
-            <a class="panel-block">
-              <span class="panel-icon"> <i class="fa fa-book"></i> </span> marksheet </a>
-            <a class="panel-block">
-              <span class="panel-icon"> <i class="fa fa-book"></i> </span> minireset.css </a>
-            <a class="panel-block">
-              <span class="panel-icon"> <i class="fa fa-book"></i> </span> jgthms.github.io </a>
-            <a class="panel-block">
-              <span class="panel-icon"> <i class="fa fa-code-fork"></i> </span> daniellowtw/infBoard </a>
-            <a class="panel-block">
-              <span class="panel-icon"> <i class="fa fa-code-fork"></i> </span> mojs </a>
-            <label class="panel-block">
+            <a data-am-bulma="panel-block is-active">
+              <span data-am-bulma="panel-icon"> <i data-am-bulma="fa fa-book"></i> </span> bulma </a>
+            <a data-am-bulma="panel-block">
+              <span data-am-bulma="panel-icon"> <i data-am-bulma="fa fa-book"></i> </span> marksheet </a>
+            <a data-am-bulma="panel-block">
+              <span data-am-bulma="panel-icon"> <i data-am-bulma="fa fa-book"></i> </span> minireset.css </a>
+            <a data-am-bulma="panel-block">
+              <span data-am-bulma="panel-icon"> <i data-am-bulma="fa fa-book"></i> </span> jgthms.github.io </a>
+            <a data-am-bulma="panel-block">
+              <span data-am-bulma="panel-icon"> <i data-am-bulma="fa fa-code-fork"></i> </span> daniellowtw/infBoard </a>
+            <a data-am-bulma="panel-block">
+              <span data-am-bulma="panel-icon"> <i data-am-bulma="fa fa-code-fork"></i> </span> mojs </a>
+            <label data-am-bulma="panel-block">
               <input type="checkbox"> Remember me </label>
-            <div class="panel-block">
-              <button class="button is-primary is-outlined is-fullwidth"> Reset all filters </button>
+            <div data-am-bulma="panel-block">
+              <button data-am-bulma="button is-primary is-outlined is-fullwidth"> Reset all filters </button>
             </div>
           </nav>
         </div>
       </section>
-      <section class="section" id="tabs">
-        <h1 class="title">Tabs</h1>
+      <section data-am-bulma="section" id="tabs">
+        <h1 data-am-bulma="title">Tabs</h1>
         <hr>
-        <div class="tabs">
+        <div data-am-bulma="tabs">
           <ul>
-            <li class="is-active">
+            <li data-am-bulma="is-active">
               <a>Pictures</a>
             </li>
             <li>
@@ -2363,38 +2363,38 @@
           </ul>
         </div>
         <br>
-        <div class="tabs is-centered">
+        <div data-am-bulma="tabs is-centered">
           <ul>
-            <li class="is-active">
+            <li data-am-bulma="is-active">
               <a>
-                <span class="icon is-small"><i class="fa fa-image"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
                 <span>Pictures</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon is-small"><i class="fa fa-music"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
                 <span>Music</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon is-small"><i class="fa fa-film"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
                 <span>Videos</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
                 <span>Documents</span>
               </a>
             </li>
           </ul>
         </div>
         <br>
-        <div class="tabs is-small">
+        <div data-am-bulma="tabs is-small">
           <ul>
-            <li class="is-active">
+            <li data-am-bulma="is-active">
               <a>Pictures</a>
             </li>
             <li>
@@ -2409,9 +2409,9 @@
           </ul>
         </div>
         <br>
-        <div class="tabs is-medium">
+        <div data-am-bulma="tabs is-medium">
           <ul>
-            <li class="is-active">
+            <li data-am-bulma="is-active">
               <a>Pictures</a>
             </li>
             <li>
@@ -2426,9 +2426,9 @@
           </ul>
         </div>
         <br>
-        <div class="tabs is-large">
+        <div data-am-bulma="tabs is-large">
           <ul>
-            <li class="is-active">
+            <li data-am-bulma="is-active">
               <a>Pictures</a>
             </li>
             <li>
@@ -2443,139 +2443,139 @@
           </ul>
         </div>
         <br>
-        <div class="tabs is-boxed">
+        <div data-am-bulma="tabs is-boxed">
           <ul>
-            <li class="is-active">
+            <li data-am-bulma="is-active">
               <a>
-                <span class="icon is-small"><i class="fa fa-image"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
                 <span>Pictures</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon is-small"><i class="fa fa-music"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
                 <span>Music</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon is-small"><i class="fa fa-film"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
                 <span>Videos</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
                 <span>Documents</span>
               </a>
             </li>
           </ul>
         </div>
         <br>
-        <div class="tabs is-toggle">
+        <div data-am-bulma="tabs is-toggle">
           <ul>
-            <li class="is-active">
+            <li data-am-bulma="is-active">
               <a>
-                <span class="icon is-small"><i class="fa fa-image"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
                 <span>Pictures</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon is-small"><i class="fa fa-music"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
                 <span>Music</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon is-small"><i class="fa fa-film"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
                 <span>Videos</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
                 <span>Documents</span>
               </a>
             </li>
           </ul>
         </div>
         <br>
-        <div class="tabs is-fullwidth">
+        <div data-am-bulma="tabs is-fullwidth">
           <ul>
             <li>
               <a>
-                <span class="icon"><i class="fa fa-angle-left"></i></span>
+                <span class="icon"><i data-am-bulma="fa fa-angle-left"></i></span>
                 <span>Left</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon"><i class="fa fa-angle-up"></i></span>
+                <span class="icon"><i data-am-bulma="fa fa-angle-up"></i></span>
                 <span>Up</span>
               </a>
             </li>
             <li>
               <a>
                 <span>Right</span>
-                <span class="icon"><i class="fa fa-angle-right"></i></span>
+                <span class="icon"><i data-am-bulma="fa fa-angle-right"></i></span>
               </a>
             </li>
           </ul>
         </div>
         <br>
-        <div class="tabs is-centered is-boxed">
+        <div data-am-bulma="tabs is-centered is-boxed">
           <ul>
-            <li class="is-active">
+            <li data-am-bulma="is-active">
               <a>
-                <span class="icon is-small"><i class="fa fa-image"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
                 <span>Pictures</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon is-small"><i class="fa fa-music"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
                 <span>Music</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon is-small"><i class="fa fa-film"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
                 <span>Videos</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
                 <span>Documents</span>
               </a>
             </li>
           </ul>
         </div>
         <br>
-        <div class="tabs is-toggle is-fullwidth is-large">
+        <div data-am-bulma="tabs is-toggle is-fullwidth is-large">
           <ul>
-            <li class="is-active">
+            <li data-am-bulma="is-active">
               <a>
-                <span class="icon"><i class="fa fa-image"></i></span>
+                <span class="icon"><i data-am-bulma="fa fa-image"></i></span>
                 <span>Pictures</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon"><i class="fa fa-music"></i></span>
+                <span class="icon"><i data-am-bulma="fa fa-music"></i></span>
                 <span>Music</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon"><i class="fa fa-film"></i></span>
+                <span class="icon"><i data-am-bulma="fa fa-film"></i></span>
                 <span>Videos</span>
               </a>
             </li>
             <li>
               <a>
-                <span class="icon"><i class="fa fa-file-text-o"></i></span>
+                <span class="icon"><i data-am-bulma="fa fa-file-text-o"></i></span>
                 <span>Documents</span>
               </a>
             </li>

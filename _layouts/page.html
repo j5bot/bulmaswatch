@@ -7,22 +7,22 @@
   <link href="{{ site.baseurl }}/assets/styles.min.css" rel="stylesheet" />
 </head>
 
-<body class="{{page.route}}-page">
-  <section class="hero is-primary">
+<body data-am-bulma="{{page.route}}-page">
+  <section data-am-bulma="hero is-primary">
     <!-- Hero header: will stick at the top -->
-    <div class="hero-head">
+    <div data-am-bulma="hero-head">
       {% include nav.html %}
     </div>
     <!-- Hero content: will be in the middle -->
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title">
+    <div data-am-bulma="hero-body">
+      <div data-am-bulma="container">
+        <h1 data-am-bulma="title">
           {{ page.title }}
         </h1>
       </div>
     </div>
   </section>
-  <div class="page-content">
+  <div data-am-bulma="page-content">
     {{ content }}
   </div>
   {% include footer.html %}

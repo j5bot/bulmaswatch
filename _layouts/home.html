@@ -7,13 +7,13 @@
   <link href="{{ site.baseurl }}/assets/styles.min.css" rel="stylesheet" />
 </head>
 
-<body class="{{page.route}}-page">
-  <section class="hero is-light is-bold">
-    <div class="hero-head">
+<body data-am-bulma="{{page.route}}-page">
+  <section data-am-bulma="hero is-light is-bold">
+    <div data-am-bulma="hero-head">
       {% include nav.html %}
     </div>
-    <div class="hero-body">
-      <div class="container has-text-centered">
+    <div data-am-bulma="hero-body">
+      <div data-am-bulma="container has-text-centered">
         <svg id="logo" width="128px" height="128px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g transform="translate(24.000000, 17.000000)">
@@ -24,7 +24,7 @@
             </g>
           </g>
         </svg>
-        <h1 class="title">
+        <h1 data-am-bulma="title">
           Free themes for <a href="//bulma.io" target="_blank"
             onclick="ga('send', 'event', 'home-hero', 'click', 'bulma');" title="A modern CSS framework based on Flexbox">Bulma</a>
         </h1>
