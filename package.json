@@ -1,15 +1,18 @@
 {
-    "name": "bulmaswatch",
+    "name": "bulmaswatch-attribute-selectors",
     "version": "0.4.1",
     "description": "Themes for Bulma",
-    "author": "Jenil Gogari <i@jgog.in>",
-    "homepage": "https://jenil.github.io/bulmaswatch",
+    "authors": [
+        "Jonathan 'J5' Cook <jonathan.j5.cook@gmail.com>",
+        "Jenil Gogari <i@jgog.in>"
+    ],
+    "homepage": "https://j5bot.github.io/bulmaswatch-attribute-selectors",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jenil/bulmaswatch.git"
+        "url": "git+https://github.com/j5bot/bulmaswatch-attribute-selectors.git"
     },
     "bugs": {
-        "url": "https://github.com/jenil/bulmaswatch/issues"
+        "url": "https://github.com/j5bot/bulmaswatch-attribute-selectors/issues"
     },
     "license": "MIT",
     "keywords": [
